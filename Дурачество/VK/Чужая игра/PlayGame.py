@@ -4,7 +4,7 @@ import time
 import datetime
 
 # если вы не знаете что вообще за токен то посмотрите мой первый ролик на эту тему https://www.youtube.com/watch?v=n-b6HJ5R1c4&feature=youtu.be
-token = "1496a7953a10ba99104f886a87158c03bf50f14edaddb094826252883a71f20401b801e85dc0501ea6230"
+token = "Тут ваш токен"
 
 vk = vk_api.VkApi(token=token)
 
