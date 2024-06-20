@@ -1,1 +1,1 @@
-TOKEN = "6966537643:AAFEd6QMrEoloSr0bIUuV4Zq0dYeMvKAi4U"
+TOKEN = "Тут ваш токен"
