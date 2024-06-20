@@ -5,11 +5,11 @@ from telethon.tl.types import InputMediaPhoto
 import re
 from urllib.parse import urlparse
 
-api_id = '5681803'
-api_hash = '10f02cd422cceda362b5b05a82edd0ff'
-phone_number = '89374517495'
+api_id = 'Тут ваш айди'
+api_hash = 'Тут ваш хеш'
+phone_number = 'Тут ваш номер'
 channel_links = ['https://t.me/+MgzDj31uAqdiYzUy', 'https://t.me/+KcwPLCwPXJ05ZTMy']
-channel_id = -1001949092880
+channel_id = # айди канала, куда скидывать
 
 async def get_channel_posts():
     client = TelegramClient('session_name', api_id, api_hash)
