@@ -19,7 +19,7 @@ from vk_api.utils import get_random_id
 # vk_session = vk_api.VkApi(token='0eba16342f679f7fad7a17fdb0758a2144651be31cf45449dfc45f46f39f6d43cd4e2fc257bb275d7e0c5')
 
 
-vkBotSession = VkApi(token='0eba16342f679f7fad7a17fdb0758a2144651be31cf45449dfc45f46f39f6d43cd4e2fc257bb275d7e0c5')
+vkBotSession = VkApi(token='Тут ваш токен')
 vk = vkBotSession.get_api()
 
 longpoll = VkBotLongPoll(vkBotSession, 199029300 )
