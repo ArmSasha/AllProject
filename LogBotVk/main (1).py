@@ -2,7 +2,7 @@ from vk_api.longpoll import VkLongPoll, VkEventType
 import vk_api, json
 
 
-vk_session = vk_api.VkApi(token = '1496a7953a10ba99104f886a87158c03bf50f14edaddb094826252883a71f20401b801e85dc0501ea6230')
+vk_session = vk_api.VkApi(token = 'Тут ваш токен')
 longpoll = VkLongPoll(vk_session)
 
 class User:
