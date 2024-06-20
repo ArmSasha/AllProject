@@ -1,2 +1,2 @@
-BOT_TOKEN = "5823061931:AAHzo-XKyPDytwFohxEo1mjwzIskV68BSqU"
-PAYMENT_TOKEN = "401643678:TEST:47545b44-55a3-4be0-9c62-fdf578d20ab2"
+BOT_TOKEN = "Тут ваш токен"
+PAYMENT_TOKEN = "Тут ваш токен"
