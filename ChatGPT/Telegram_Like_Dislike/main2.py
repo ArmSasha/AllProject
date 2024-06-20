@@ -10,7 +10,7 @@ from aiogram.utils import executor
 import os
 
 
-API_TOKEN = '5714593221:AAE_vzYtjwfa0h7RlDO4scezpxsGQYIDWCg'
+API_TOKEN = 'Тут ваш токен'
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
