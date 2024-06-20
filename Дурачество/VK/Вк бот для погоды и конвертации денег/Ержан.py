@@ -14,7 +14,7 @@ from bs4 import BeautifulSoup as BS
 
 # НАДО{
 
-vk_session = vk_api.VkApi(token='1496a7953a10ba99104f886a87158c03bf50f14edaddb094826252883a71f20401b801e85dc0501ea6230')
+vk_session = vk_api.VkApi(token='Тут ваш токен')
 longpoll = VkBotLongPoll(vk_session, 201914526 )
 
 upload = VkUpload(vk_session)
