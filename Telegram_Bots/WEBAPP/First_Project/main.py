@@ -2,7 +2,7 @@ from aiogram import Bot, Dispatcher, executor, types
 from aiogram.types.web_app_info import WebAppInfo
 
 
-bot = Bot("6168841421:AAF1Te0tegtkqBc9hV_yxuHymJMG8YHmoHQ")
+bot = Bot("Тут ваш токен")
 dp = Dispatcher(bot)
 
 
