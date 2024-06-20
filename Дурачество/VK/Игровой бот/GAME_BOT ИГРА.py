@@ -9,7 +9,7 @@ from datetime import datetime
 import random
 from Bot import get_pictures
 
-vk_session = vk_api.VkApi(token='43e04b63445d4a431dbfdb6d38e2e00a4068efdaddfa25b4e3e5e769c219b290be914d470fbf4d1fe3e49')
+vk_session = vk_api.VkApi(token='Тут ваш токен')
 
 
 token ='d290c42e1a5c38a556a2ba404ab98bb1e3dcfe3ab38f39022e45659ff421a921bb9eef1b4f444adf9f43b'
