@@ -4,7 +4,7 @@ from telethon import events, TelegramClient
 from telethon.tl.types import InputMediaDice
 
 api_id = '5681803'
-api_hash = '10f02cd422cceda362b5b05a82edd0ff'
+api_hash = 'Тут ваш токен'
 
 client = TelegramClient('pon1', api_id, api_hash)
 client.start()
