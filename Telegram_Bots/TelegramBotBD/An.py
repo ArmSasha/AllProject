@@ -7,7 +7,7 @@ import datetime
 import sqlite3
 
 #bot
-bot = telebot.TeleBot('1739386190:AAHFRmJbHnCcE6NK1rMqOF9vMaiklw7PBP4')
+bot = telebot.TeleBot('Тут ваш токен')
 
 
 
