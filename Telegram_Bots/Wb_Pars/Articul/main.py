@@ -13,7 +13,7 @@ import requests
 
 logging.basicConfig(level=logging.INFO)
 
-bot_token = '5760615918:AAHygCHZdAnKceDwVIBzhT_L-INrrbK6HbI'
+bot_token = 'Тут ваш токен'
 bot = Bot(token=bot_token, parse_mode='HTML')
 dp = Dispatcher(bot)
 
