@@ -20,7 +20,7 @@ Ownment Varchar(100)
 connection.commit()
 connection.close()
 
-token = "d290c42e1a5c38a556a2ba404ab98bb1e3dcfe3ab38f39022e45659ff421a921bb9eef1b4f444adf9f43b"
+token = "Тут ваш токен"
 
 vk = vk_api.VkApi(token=token)
 vk._auth_token()
