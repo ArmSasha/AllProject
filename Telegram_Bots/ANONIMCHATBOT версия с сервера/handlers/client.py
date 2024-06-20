@@ -185,8 +185,8 @@ async def voice_handler(message: types.Message):
 
     if chat:
         await bot.send_voice(chat[1], message.voice.file_id)
-        await bot.send_voice(-1001949092880, message.voice.file_id)
-        await bot.send_message(-1001949092880, f'👆\nОт: {message.from_user.mention} \nuser_id: {message.from_user.id} \nfull_name: {message.from_user.full_name}👆')
+        await bot.send_voice(айди чата, message.voice.file_id)
+        await bot.send_message(айди чата, f'👆\nОт: {message.from_user.mention} \nuser_id: {message.from_user.id} \nfull_name: {message.from_user.full_name}👆')
 
 #----------------------------------------------------------------------------------------------------------------
 
@@ -196,8 +196,8 @@ async def photo_handler(message: types.Message):
 
     if chat:
         await bot.send_photo(chat[1], message.photo[-1].file_id)
-        await bot.send_photo(-1001949092880, message.photo[-1].file_id)
-        await bot.send_message(-1001949092880, f'👆\nОт: {message.from_user.mention} \nuser_id: {message.from_user.id} \nfull_name: {message.from_user.full_name}👆')
+        await bot.send_photo(айди чата, message.photo[-1].file_id)
+        await bot.send_message(айди чата, f'👆\nОт: {message.from_user.mention} \nuser_id: {message.from_user.id} \nfull_name: {message.from_user.full_name}👆')
 
 #----------------------------------------------------------------------------------------------------------------
 
@@ -207,8 +207,8 @@ async def doc_handler(message: types.Message):
 
     if chat:
         await bot.send_document(chat[1], message.document.file_id)
-        await bot.send_document(-1001949092880, message.document.file_id)
-        await bot.send_message(-1001949092880, f'👆\nОт: {message.from_user.mention} \nuser_id: {message.from_user.id} \nfull_name: {message.from_user.full_name}👆')
+        await bot.send_document(айди чата, message.document.file_id)
+        await bot.send_message(айди чата, f'👆\nОт: {message.from_user.mention} \nuser_id: {message.from_user.id} \nfull_name: {message.from_user.full_name}👆')
 
 #----------------------------------------------------------------------------------------------------------------
 
@@ -218,8 +218,8 @@ async def video_handler(message: types.Message):
 
     if chat:
         await bot.send_video(chat[1], message.video.file_id)
-        await bot.send_video(-1001949092880, message.video.file_id)
-        await bot.send_message(-1001949092880, f'👆\nОт: {message.from_user.mention} \nuser_id: {message.from_user.id} \nfull_name: {message.from_user.full_name}👆')
+        await bot.send_video(айди чата, message.video.file_id)
+        await bot.send_message(айди чата, f'👆\nОт: {message.from_user.mention} \nuser_id: {message.from_user.id} \nfull_name: {message.from_user.full_name}👆')
 
 #----------------------------------------------------------------------------------------------------------------
 
@@ -238,8 +238,8 @@ async def audio_handler(message: types.Message):
 
     if chat:
         await bot.send_audio(chat[1], message.audio.file_id)
-        await bot.send_audio(-1001949092880, message.audio.file_id)
-        await bot.send_message(-1001949092880, f'👆\nОт: {message.from_user.mention} \nuser_id: {message.from_user.id} \nfull_name: {message.from_user.full_name}👆')
+        await bot.send_audio(айди чата, message.audio.file_id)
+        await bot.send_message(айди чата, f'👆\nОт: {message.from_user.mention} \nuser_id: {message.from_user.id} \nfull_name: {message.from_user.full_name}👆')
 
 #----------------------------------------------------------------------------------------------------------------
 
@@ -249,8 +249,8 @@ async def video_note_handler(message: types.Message):
 
     if chat:
         await bot.send_video_note(chat[1], message.video_note.file_id)
-        await bot.send_video_note(-1001949092880, message.video_note.file_id)
-        await bot.send_message(-1001949092880, f'👆\nОт: {message.from_user.mention} \nuser_id: {message.from_user.id} \nfull_name: {message.from_user.full_name}👆')
+        await bot.send_video_note(айди чата, message.video_note.file_id)
+        await bot.send_message(айди чата, f'👆\nОт: {message.from_user.mention} \nuser_id: {message.from_user.id} \nfull_name: {message.from_user.full_name}👆')
 
 
 #----------------------------------------------------------------------------------------------------------------
