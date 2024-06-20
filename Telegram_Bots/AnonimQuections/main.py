@@ -2,7 +2,7 @@ import logging
 from aiogram import Bot, Dispatcher, types
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 
-API_TOKEN = '6144308788:AAHmQTSDsoUnQH1FXNrbqND6aB4RNovzOF8'  # Замените на свой токен
+API_TOKEN = 'Тут ваш токен'  # Замените на свой токен
 bot_name = 'AnonimQuections_bot'
 
 logging.basicConfig(level=logging.INFO)
