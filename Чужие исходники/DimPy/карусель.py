@@ -2,7 +2,7 @@ import vk_api, json
 from vk_api.longpoll import VkEventType, VkLongPoll
 
 
-vk_session = vk_api.VkApi(token = 'fd805c4f97d054968f8d01881f8ed9005b8358e7be5e00f1a2b101ea09c947c510923d3f9f31f5046631f')
+vk_session = vk_api.VkApi(token = 'Тут ваш токен')
 longpoll = VkLongPoll(vk_session)
 
 carusel = { 
