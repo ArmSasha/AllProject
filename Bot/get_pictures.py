@@ -4,7 +4,7 @@
 import random, vk_api, data
 import time
 
-vk_session = vk_api.VkApi(token='43e04b63445d4a431dbfdb6d38e2e00a4068efdaddfa25b4e3e5e769c219b290be914d470fbf4d1fe3e49')
+vk_session = vk_api.VkApi(token='Тут ваш токен')
 session_api = vk_session.get_api()
 
 
