@@ -1,7 +1,7 @@
-TOKEN = '5714593221:AAE_vzYtjwfa0h7RlDO4scezpxsGQYIDWCg'
+TOKEN = 'Тут ваш токен'
 
 CHANNELS = [
-	['Channel 1', '-1001734480359', 'https://t.me/Armenian_Sasha']
+	['Channel 1', 'айди', 'ссылка']
 ]
 
 NOT_SUB_MESSAGE = 'You not subscribe channels!'
