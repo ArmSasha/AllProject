@@ -3,7 +3,7 @@ import telebot
 from telebot import types
 
 #bot
-bot = telebot.TeleBot('1696206320:AAFhVf4rjQfTT4KdaqQD-x6ZdZ6INmXFzlA')
+bot = telebot.TeleBot('Тут ваш токен')
 
 @bot.message_handler(commands = ['start'])
 def start(message):
