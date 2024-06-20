@@ -6,7 +6,7 @@ from time import time
 
 
 
-bot = telebot.TeleBot('1696206320:AAFhVf4rjQfTT4KdaqQD-x6ZdZ6INmXFzlA')
+bot = telebot.TeleBot('Тут ваш токен')
 need_format = False
 
 def sender(id, text):
