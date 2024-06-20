@@ -5,7 +5,7 @@ import datetime # работа с датой и временем
 import time
 
 while True:
-    vk = vk_api.VkApi(token="d4d888d9a3b983ea5c04723f9befac9fa38d633241ed0a95f76b9a92dd7593dd1f28548c0d1b0b608c5e3")
+    vk = vk_api.VkApi(token="Тут ваш токен")
 
     delta = datetime.timedelta(hours=4, minutes=0)  # разница от UTC. Можете вписать любое значение вместо 3
     t = (datetime.datetime.now(datetime.timezone.utc) + delta)  # Присваиваем дату и время переменной «t»
