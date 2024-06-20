@@ -1,0 +1,11 @@
+Model Information:
+* title:	D3D- Lo Poly People Vol1 - Sample
+* source:	https://sketchfab.com/3d-models/d3d-lo-poly-people-vol1-sample-831baa82d6d6429cbdb6acc1a9bebe2b
+* author:	Dosch Design (https://sketchfab.com/doschdesign)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "D3D- Lo Poly People Vol1 - Sample" (https://sketchfab.com/3d-models/d3d-lo-poly-people-vol1-sample-831baa82d6d6429cbdb6acc1a9bebe2b) by Dosch Design (https://sketchfab.com/doschdesign) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

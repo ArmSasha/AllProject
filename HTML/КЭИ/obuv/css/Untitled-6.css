@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.background {
+    background-color: #88e1e4;
+  
+}
+
+.logo {
+    width: 100px;
+}
+
+.burger {
+    display: none;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 20px 10px 20px;
+    background-color: #807490;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    column-gap: 50px;
+
+}
+.button1 {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+    background-color: #7a777c;
+    border: 2px solid white;
+}
+
+.button2 {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #7a777c;
+    border-radius: 10px;
+    font-size: 14px;
+    text-align: center;
+    padding: 13px;
+    border: 5px solid rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.buttonn {
+    display: inline-block;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 250px;
+    font-size: 14px;
+    text-align: center;
+    padding: 13px;
+    border: 2px solid black;
+    font-weight: bold;
+}
+
+.main {
+    display: flex;
+
+}
+.box{
+    position: absolute;
+    left: 200px;
+    right: 0;
+    top: 233px;
+    background-color: #ffffff;
+    width: 1400px;
+    height: 605px;
+}
+.karta1 {
+    position: absolute;
+    left: 264px;
+    right: 0;
+    top: 315px;
+    width: 1000px;
+    height: 540px;
+    
+}
+.text{
+    position: absolute;
+    font-size: 40px;
+    font-weight: 400;
+    color: #000000;
+    top:350px;
+    left:839px;
+}
+.text1{
+    position: absolute;
+    font-size: 40px;
+    font-weight: 400;
+    color: #000000;
+    top:464px;
+    left:839px;
+}
+.box1{
+    position: absolute;
+    left: 816px;
+    right: 0;
+    top: 570px;
+    background-color: #b38a06;
+    width: 550px;
+    height: 133px;
+    border-radius: 20px;
+}
+.text2{
+    position: absolute;
+    font-size: 40px;
+    font-weight: 400;
+    color: #000000;
+    top:617px;
+    left:900px;
+}

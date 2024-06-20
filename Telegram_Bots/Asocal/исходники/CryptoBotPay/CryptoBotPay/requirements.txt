@@ -1,0 +1,4 @@
+environs==9.5.0
+SQLAlchemy==1.4.42
+aiocryptopay==0.2.1
+aiogram==2.22.2

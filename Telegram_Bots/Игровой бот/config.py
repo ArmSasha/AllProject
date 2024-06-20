@@ -1,0 +1,11 @@
+BOT_TOKEN='token'
+# test=
+# orig=
+owner_id=
+group_newbot=
+Test_group=
+offical_group=
+log_group=
+channel_offical=https://t.me/end_soft
+report_group=
+BOT_NICKNAME=''

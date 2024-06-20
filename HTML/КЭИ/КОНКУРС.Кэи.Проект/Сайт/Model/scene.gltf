@@ -1,0 +1,247 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 6982,
+      "max": [
+        0.5177841186523438,
+        0.39658409357070923,
+        1.6934298276901245
+      ],
+      "min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 83784,
+      "componentType": 5126,
+      "count": 6982,
+      "max": [
+        0.999865710735321,
+        0.999839723110199,
+        0.9941483736038208
+      ],
+      "min": [
+        -0.9998987913131714,
+        -0.9999265074729919,
+        -0.9999185800552368
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 6982,
+      "max": [
+        0.9955859780311584,
+        0.9988049864768982
+      ],
+      "min": [
+        0.0021359999664127827,
+        0.0039060120470821857
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 55856,
+      "componentType": 5126,
+      "count": 6982,
+      "max": [
+        0.9955859780311584,
+        0.9988049864768982
+      ],
+      "min": [
+        0.0021359999664127827,
+        0.0039060120470821857
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 30000,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Dosch Design (https://sketchfab.com/doschdesign)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/d3d-lo-poly-people-vol1-sample-831baa82d6d6429cbdb6acc1a9bebe2b",
+      "title": "D3D- Lo Poly People Vol1 - Sample"
+    },
+    "generator": "Sketchfab-12.66.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 120000,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 111712,
+      "byteOffset": 120000,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 167568,
+      "byteOffset": 231712,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 399280,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/D3D-P-LOW-001_baseColor.jpeg"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "D3D-P-LOW-001",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.6
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "D3D-P-LOW-001",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -0.22507500648498535,
+        -0.1553930938243866,
+        -0.0003517699951771647,
+        1.0
+      ],
+      "name": "D3D-P-LOW-001.DAE.cleaner.materialmerger.gles"
+    },
+    {
+      "children": [
+        3,
+        5
+      ],
+      "name": "Collada visual scene group"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "EnvironmentAmbientLight"
+    },
+    {
+      "name": "EnvironmentAmbientLight"
+    },
+    {
+      "children": [
+        6
+      ],
+      "name": "D3D-P-LOW-001"
+    },
+    {
+      "mesh": 0,
+      "name": "D3D-P-LOW-001"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}

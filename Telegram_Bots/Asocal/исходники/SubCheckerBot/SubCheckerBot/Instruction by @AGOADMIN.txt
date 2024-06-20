@@ -1,0 +1,13 @@
+			\\\___Instruction by @AGOADMIN___///
+
+1) Install python.exe (go to "https://python.org")
+2) Don't forget to check the "ADD TO PATH" checkbox when installing Python
+3) Open cmd.exe (WIN + R ==> "cmd.exe")
+4) Enter "pip install requiremnts.txt -r"
+5) Also you should to install pgAdmin4 to create database
+6) Set your settings into .env configuration file
+7) Open "app.py"
+
+FINISH!
+
+		|__More scripts and telegram bots -  https://endway.su/ago/__|

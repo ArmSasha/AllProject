@@ -1,0 +1,1 @@
+TOKEN = "6d7ca3dd357cb822c17e517f7fc2226d"  # your pyowm token

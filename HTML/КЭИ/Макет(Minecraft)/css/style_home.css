@@ -1,0 +1,3657 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+
+
+body{
+	overflow-x: hidden;
+	min-width: 1366px;
+	max-width: 1920px;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+/* Home desktop */
+.Home_Desktop{
+	position: relative;
+	width: 1920px;
+	height: 3214px;
+
+	/* dark orange */
+
+	background: linear-gradient(180deg, #C18E08 0%, #BD570E 100%);
+}
+/* header */
+.header{
+	position: absolute;
+	width: 1160px;
+	height: 120.51px;
+	left: 380px;
+	top: 41.2px;
+}
+/* Rectangle 1 */
+.Rectangle-1{
+	box-sizing: border-box;
+	position: absolute;
+	width: 1160px;
+	height: 92.57px;
+	left: 0px;
+	top: 38px;
+	background: rgba(105, 53, 30, 0.6);
+	box-shadow: inset 0px -7px 0px rgba(0, 0, 0, 0.25);
+	backdrop-filter: blur(7.5px);
+	/* Note: backdrop-filter has minimal browser support */
+	border-radius: 100px;
+	z-index: 1;
+}
+/* Rectangle 4 */
+.Rectangle-4{
+	position: absolute;
+	width: 329.96px;
+	height: 92.57px;
+	background: linear-gradient(90deg, rgba(67, 28, 11, 0.6) 31.95%, rgba(105, 53, 30, 0) 73.35%);
+	border-radius: 100px;
+}
+
+/* LOGO */
+.logo{
+	position: absolute;
+	width: 111.4px;
+	height: 111.4px;
+	top: -30px;
+	background: url(Images/Logo.png);
+}
+/* FEPLEX */
+.FEPLEX{
+	position: absolute;
+	width: 144px;
+	height: 43px;
+	left: 136px;
+	top: 25px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 35.4896px;
+	line-height: 43px;
+	color: #FFFFFF;
+}
+/* Как начать игру */
+.Game-text{
+	position: absolute;
+	width: 198px;
+	height: 29px;
+	left: 435px;
+	top: 33px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+	color: #FFFFFF;
+}
+/* Start-Game */
+.Game-img{
+	position: absolute;
+	height: 28.53px;
+	left: 396px;
+	right: 58.1%;
+	top: 30px;
+}
+/* Rectangle 3 */
+.Rectangle-3{
+	position: absolute;
+	width: 1.82px;
+	height: 68.1px;
+	left: 330px;
+	top: 12px;
+	background: #FCA554;
+}
+/* Магазин */
+.Shop-text{
+	position: absolute;
+    width: 108px;
+    height: 29px;
+    left: 732px;
+    top: 31px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+/* Shop-img */
+.Shop-img{
+	position: absolute;
+    height: 29.35px;
+    left: 694px;
+    right: 42.57%;
+    top: 30px;
+}
+/* Контакты */
+.Contacts-text{
+	position: absolute;
+	width: 117px;
+	height: 29px;
+	left: 949px;
+	top: 33px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+	color: #FFFFFF;
+}
+/* Contacts-img */
+.Contacts-img{
+	position: absolute;
+    height: 29.35px;
+    left: 910px;
+    right: 42.57%;
+    top: 32px;
+}
+/* Sword-Left-img */
+.Sword-Left-img{
+	position: absolute;
+	width: 290.09px;
+	height: 293px;
+	left: 43px;
+	top: 225px;
+	background: url(Images/Sword-left.png);
+}
+/* Sword-Right-Up-img */
+.Sword-Right-Up-img{
+	position: absolute;
+	width: 372.45px;
+	height: 310px;
+	left: 1405px;
+	top: 10px;
+	background: url(Images/Sword-right-up.png);
+}
+/* Sword-Right-Down-img */
+.Sword-Right-Down-img{
+	position: absolute;
+	width: 372.45px;
+	height: 360px;
+	left: 1390px;
+    top: 755px;
+	background: url(Images/Sword-right-down.png);
+	filter: blur(10.5px);
+	z-index: 999;
+}
+/* Добро пожаловать на Feplex */
+.Welcome-Feplex{
+	position: absolute;
+	width: 717px;
+	height: 172px;
+	left: 380px;
+	top: 473px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 70.7791px;
+	line-height: 86px;
+	color: #FFFFFF;
+	z-index: 1;
+}
+/* Присоединяйся к игре */
+.Join-game{
+	position: absolute;
+	width: 407px;
+	height: 41px;
+	left: 380px;
+	top: 654.47px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 33.766px;
+	line-height: 41px;
+	color: #E3E3E3;
+}
+/* Rectangle 2 */
+.Rectangle-2{
+	width: 400px;
+    height: 91px;
+	box-sizing: border-box;
+	position: absolute;
+	left: 380px;
+    right: 0%;
+    top: 740px;
+	bottom: 0%;
+	background: linear-gradient(180deg, #9C4B28 0%, #4A200E 100%);
+	box-shadow: 0px 10px 8px rgba(241, 177, 11, 0.26), inset 0px -10px 0px rgba(0, 0, 0, 0.25);
+	border-radius: 100px;
+}
+/* Feplex.com, 19132 */
+.Server-Text{
+	position: absolute;
+	left: 17.23%;
+	right: 26.52%;
+	top: 27.05%;
+	bottom: 40.1%;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 25px;
+	line-height: 30px;
+	background: linear-gradient(180deg, #FFFFFF 55.73%, #AA3504 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+}
+/* Server-Copy */
+.Server-Copy{
+	position: absolute;
+	left: 77.17%;
+	right: 17.23%;
+	top: 29.27%;
+	bottom: 42.32%;
+	background: url(Images/Copy.png);
+}
+/* Left-Island-img */
+.Left-Island-img{
+	position: absolute;
+	width: 480px;
+	height: 768.23px;
+	top: 541px;
+	background: url(Images/Left-Island.png);
+}
+/* Right-Island-img */
+.Right-Island-img{
+	position: absolute;
+	width: 925px;
+	height: 715px;
+	left: 960px;
+    top: 338px;
+	background: url(Images/Right-Island.png);
+}
+/* Rectangle 13 */
+.Rectangle-13{
+	box-sizing: border-box;
+	position: absolute;
+	width: 1579.64px;
+	height: 665px;
+	left: 170.18px;
+	top: 1119px;
+	background: linear-gradient(180deg, #9C4B28 0%, #4A200E 105.16%);
+	box-shadow: inset 0px -7.65766px 0px rgba(0, 0, 0, 0.25);
+	border-radius: 49.7748px;
+}
+/* Group 2 */
+.Group-2{
+	position: absolute;
+	width: 166.5px;
+	height: 41.97px;
+	left: 315.86px;
+	top: 1175.59px;
+}
+/* Nikita-img */
+.Nikita-img{
+	position: absolute;
+	left: -170px;
+	right: 81.47%;
+	top: -1110px;
+	bottom: 62.12%;
+}
+/* Nikita */
+.Nikita{
+	position: absolute;
+	left: -110px;
+	right: 74.88%;
+	top: -1109px;
+	bottom: 62.12%;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 33.766px;
+	line-height: 41px;
+	color: #FFFFFF;
+}
+/* Frame 3 */
+.Frame-3{
+	/* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px 26px;
+    gap: 10px;
+    position: absolute;
+    width: 129px;
+    height: 24px;
+    left: 758px;
+    top: 50px;
+    border: 5px solid #572611;
+    border-radius: 36px;
+    transition: all .4s ease-in-out;
+}
+.Frame-3:hover{
+	border: solid #FBA454;
+	background: #FBA454;
+}
+/* Привилегии */
+.Privileges{
+	width: 136px;
+    height: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-inline-start: -3px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+/* Frame 4 */
+.Frame-4{
+	/* Auto layout */
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 20px 26px;
+	gap: 10px;
+	position: absolute;
+	width: 125px;
+	height: 64px;
+	left: 974px;
+    top: 55px;
+	border: 5px solid #572611;
+	border-radius: 36px;
+	transition: all .4s ease-in-out;
+}
+.Frame-4:hover{
+	border: solid #FBA454;
+	background: #FBA454;
+}
+/* Ключи */
+.Keys{
+	width: 73px;
+	height: 24px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 15px;
+    margin-inline-start: -5px;
+	color: #FFFFFF;
+	/* Inside auto layout */
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+/* Frame 5 */
+.Frame-5{
+	box-sizing: border-box;
+	/* Auto layout */
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 20px 26px;
+	gap: 10px;
+	position: absolute;
+	width: 139px;
+	height: 64px;
+	left: 1129px;
+    top: 55px;
+	border: 5px solid #572611;
+	border-radius: 36px;
+	transition: all .4s ease-in-out;
+}
+.Frame-5:hover{
+	border: solid #FBA454;
+	background: #FBA454;
+}
+/* Наборы */
+.Sets{
+	width: 87px;
+	height: 24px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 15px;
+    margin-inline-start: -5px;
+	color: #FFFFFF;
+	/* Inside auto layout */
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+/* Frame 6 */
+.Frame-6{
+	box-sizing: border-box;
+	/* Auto layout */
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 20px 26px;
+	gap: 10px;
+	position: absolute;
+	width: 139px;
+	height: 64px;
+	left: 1295px;
+    top: 55px;
+	border: 5px solid #572611;
+	border-radius: 36px;
+	transition: all .4s ease-in-out;
+}
+.Frame-6:hover{
+	border: solid #FBA454;
+	background: #FBA454;
+}
+/* Монеты */
+.Coins{
+	width: 87px;
+	height: 24px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 15px;
+    margin-inline-start: -5px;
+	color: #FFFFFF;
+	/* Inside auto layout */
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+/* Rectangle 14 */
+.Rectangle-14{
+	position: absolute;
+	width: 1288.29px;
+	height: 2.28px;
+	left: 315.86px;
+	top: 1288px;
+	background: #5E2A13;
+}
+/* __________________VIP________________________*/
+/* Rectangle 15 */
+.Rectangle-15-v{
+	position: absolute;
+	width: 303.42px;
+	height: 338.09px;
+	left: 305.29px;
+	top: 1355px;
+	background: #572611;
+	border-radius: 29.8137px;
+}
+/* VIP */
+.VIP{
+	position: absolute;
+	width: 52px;
+	height: 35px;
+	left: 188px;
+    top: 27px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 28.7625px;
+	line-height: 35px;
+	/* identical to box height */
+	color: #FFFFFF;
+}
+/* Rectangle 7 */
+.Rectangle-7-v{
+	position: absolute;
+	left: 35px;
+    right: 162px;
+    top: -32px;
+    bottom: 264px;
+	background: linear-gradient(180deg, #FFB800 0%, #52FF00 0.01%, #008A16 100%);
+	box-shadow: 0px 1.56901px 3.92251px rgba(0, 0, 0, 0.25);
+	border-radius: 39.1837px;
+}
+/* VIP-IMG */
+.VIP-IMG{
+	position: absolute;
+    left: 0px;
+    right: 162px;
+    top: -1px;
+    bottom: 268px;
+}
+/* Rectangle 16 */
+.Rectangle-16-v{
+	position: absolute;
+    width: 270.71px;
+    height: 1.94px;
+    left: 16px;
+    top: 96px;
+    background: #7B4025;
+}
+/* Первое дополнительный текст */
+.First-Vip{
+	position: absolute;
+    width: 184px;
+    height: 42px;
+    left: 55px;
+    top: 111px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19.3109px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.First-Vip span{
+	font-weight: 400;
+	font-size: 15px;
+	margin-inline-start: 1px;
+}
+/* Второе дополнительный текст */
+.Second-Vip{
+	position: absolute;
+	width: 184px;
+	height: 42px;
+	left: 55px;
+    top: 170px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 19.3109px;
+	line-height: 20px;
+	color: #FFFFFF;
+}
+.Second-Vip span{
+	font-weight: 400;
+	font-size: 15px;
+	margin-inline-start: 1px;
+}
+/* Третье дополнительный текст */
+.Third-Vip{
+	position: absolute;
+	width: 184px;
+	height: 42px;
+	left: 55px;
+	top: 230px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 19.3109px;
+	line-height: 20px;
+	color: #FFFFFF;
+}
+.Third-Vip span{
+	font-weight: 400;
+	font-size: 15px;
+	margin-inline-start: 1px;
+}
+/* 1₽ */
+.One-vip{
+	position: absolute;
+	width: 20px;
+	height: 21px;
+	left: 38px;
+    top: 8px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 17.0364px;
+	line-height: 21px;
+	/* identical to box height */
+	color: #000000;
+}
+/* Rectangle v */
+.Rectangle-v{
+	position: absolute;
+	width: 96.79px;
+    height: 35.95px;
+	left: 405.1px;
+	top: 1635px;
+	border: 5px solid #FFFFFF;
+	transition: all .4s ease-in-out;
+	border-radius: 28.9618px;
+}
+.Rectangle-v:hover{
+	background: #FFFFFF;
+}
+
+/* __________________MVP________________________*/
+/* Rectangle 15 */
+.Rectangle-15-m{
+	position: absolute;
+	width: 303.42px;
+	height: 338.09px;
+	left: 640px;
+	top: 1354px;
+	background: #572611;
+	border-radius: 29.8137px;
+}
+/* MVP */
+.MVP{
+	position: absolute;
+	width: 52px;
+	height: 35px;
+	left: 180px;
+    top: 28px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 28.7625px;
+	line-height: 35px;
+	/* identical to box height */
+	color: #FFFFFF;
+}
+/* Rectangle 7 */
+.Rectangle-7-m{
+	position: absolute;
+	left: 35px;
+    right: 162px;
+    top: -31px;
+    bottom: 263px;
+	background: linear-gradient(180deg, #00B2FF 0.01%, #00068A 100%);
+	box-shadow: 0px 1.56901px 3.92251px rgba(0, 0, 0, 0.25);
+	border-radius: 39.1837px;
+}
+/* VIP-IMG */
+.MVP-IMG{
+	position: absolute;
+    left: 13px;
+    top: 8px;
+    bottom: 268px;
+}
+/* Rectangle 16 */
+.Rectangle-16-m{
+	position: absolute;
+    width: 270.71px;
+    height: 1.94px;
+    left: 16px;
+    top: 96px;
+    background: #7B4025;
+}
+/* Первое дополнительный текст */
+.First-Mvp{
+	position: absolute;
+    width: 184px;
+    height: 42px;
+    left: 55px;
+    top: 112px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19.3109px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.First-Mvp span{
+	font-weight: 400;
+	font-size: 15px;
+	margin-inline-start: 1px;
+}
+/* Второе дополнительный текст */
+.Second-Mvp{
+	position: absolute;
+	width: 184px;
+	height: 42px;
+	left: 56px;
+    top: 171px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 19.3109px;
+	line-height: 20px;
+	color: #FFFFFF;
+}
+.Second-Mvp span{
+	font-weight: 400;
+	font-size: 15px;
+	margin-inline-start: 1px;
+}
+/* Третье дополнительный текст */
+.Third-Mvp{
+	position: absolute;
+	width: 184px;
+	height: 42px;
+    left: 56px;
+    top: 232px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 19.3109px;
+	line-height: 20px;
+	color: #FFFFFF;
+}
+.Third-Mvp span{
+	font-weight: 400;
+	font-size: 15px;
+	margin-inline-start: 1px;
+}
+/* 1₽ */
+.One-Mvp{
+	position: absolute;
+	width: 20px;
+	height: 21px;
+	left: 38px;
+    top: 8px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 17.0364px;
+	line-height: 21px;
+	/* identical to box height */
+	color: #000000;
+}
+.one-m{
+	color: #000;
+}
+/* Rectangle m */
+.Rectangle-m{
+	position: absolute;
+	width: 96.79px;
+    height: 35.95px;
+	left: 740px;
+	top: 1635px;
+	border: 5px solid #FFFFFF;
+	border-radius: 28.9618px;
+	transition: all .4s ease-in-out;
+}
+.Rectangle-m:hover{
+	background: #FFFFFF;
+}
+
+/* __________________MVP-P________________________*/
+/* Rectangle 15 */
+.Rectangle-15-m-p{
+	position: absolute;
+	width: 303.42px;
+	height: 338.09px;
+	left: 975px;
+	top: 1354px;
+	background: #572611;
+	border-radius: 29.8137px;
+}
+/* MVP */
+.MVP-P{
+	position: absolute;
+	width: 52px;
+	height: 35px;
+	left: 178px;
+    top: 28px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 28.7625px;
+	line-height: 35px;
+	/* identical to box height */
+	color: #FFFFFF;
+}
+/* Rectangle 7 */
+.Rectangle-7-m-p{
+	position: absolute;
+	left: 35px;
+    right: 162px;
+    top: -31px;
+    bottom: 263px;
+	background: linear-gradient(180deg, #0380B6 0.01%, #131544 100%);
+	box-shadow: 0px 1.56901px 3.92251px rgba(0, 0, 0, 0.25);
+	border-radius: 39.1837px;
+}
+/* VIP-IMG */
+.MVP-P-IMG{
+	position: absolute;
+    left: -1px;
+    top: 13px;
+    bottom: 268px;
+}
+/* Rectangle 16 */
+.Rectangle-16-m-p{
+	position: absolute;
+    width: 270.71px;
+    height: 1.94px;
+    left: 16px;
+    top: 96px;
+    background: #7B4025;
+}
+/* Первое дополнительный текст */
+.First-Mvp-p{
+	position: absolute;
+    width: 184px;
+    height: 42px;
+    left: 56px;
+    top: 112px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19.3109px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.First-Mvp-p span{
+	font-weight: 400;
+	font-size: 15px;
+	margin-inline-start: 1px;
+}
+/* Второе дополнительный текст */
+.Second-Mvp-p{
+	position: absolute;
+	width: 184px;
+	height: 42px;
+	left: 56px;
+    top: 171px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 19.3109px;
+	line-height: 20px;
+	color: #FFFFFF;
+}
+.Second-Mvp-p span{
+	font-weight: 400;
+	font-size: 15px;
+	margin-inline-start: 1px;
+}
+/* Третье дополнительный текст */
+.Third-Mvp-p{
+	position: absolute;
+	width: 184px;
+	height: 42px;
+	left: 56px;
+    top: 232px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 19.3109px;
+	line-height: 20px;
+	color: #FFFFFF;
+}
+.Third-Mvp-p span{
+	font-weight: 400;
+	font-size: 15px;
+	margin-inline-start: 1px;
+}
+/* 1₽ */
+.One-Mvp-p{
+	position: absolute;
+	width: 20px;
+	height: 21px;
+	left: 40px;
+    top: 8px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 17.0364px;
+	line-height: 21px;
+	/* identical to box height */
+	color: #000000;
+}
+/* Rectangle v */
+.Rectangle-m-p{
+	position: absolute;
+	width: 96.79px;
+    height: 35.95px;
+	left: 1072px;
+	top: 1635px;
+	border: 5px solid #FFFFFF;
+	border-radius: 28.9618px;
+	transition: all .4s ease-in-out;
+}
+.Rectangle-m-p:hover{
+	background: #FFFFFF;
+}
+
+/* __________________MVP-KING________________________*/
+/* Rectangle 15 */
+.Rectangle-15-m-k{
+	position: absolute;
+	width: 303.42px;
+	height: 338.09px;
+	left: 1312px;
+	top: 1354px;
+	background: #181818;
+	border-radius: 29.8137px;
+}
+/* MVP */
+.MVP-K{
+	position: absolute;
+	width: 135px;
+	height: 35px;
+	left: 155px;
+    top: 28px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24.4834px;
+	line-height: 35px;
+	/* identical to box height */
+	color: #FFFFFF;
+}
+.MVP-K span{
+	color: #FFB800;
+}
+/* Rectangle 7 */
+.Rectangle-7-m-k{
+	position: absolute;
+    left: 35px;
+    right: 161px;
+    top: -30px;
+    bottom: 264px;
+	background: linear-gradient(180deg, #FFB800 0.01%, #FF7E00 100%);
+	box-shadow: 0px 1.56901px 3.92251px rgba(0, 0, 0, 0.25);
+	border-radius: 39.1837px;
+}
+/* VIP-IMG */
+.MVP-K-IMG{
+	position: absolute;
+    left: 12px;
+    top: 12px;
+    bottom: 268px;
+}
+/* Rectangle 16 */
+.Rectangle-16-m-k{
+	position: absolute;
+    width: 270.71px;
+    height: 1.94px;
+    left: 16px;
+    top: 96px;
+    background: #111111;
+}
+/* Первое дополнительный текст */
+.First-Mvp-k{
+	position: absolute;
+    width: 184px;
+    height: 42px;
+    left: 55px;
+    top: 113px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19.3109px;
+	line-height: 19px;
+    color: #FFFFFF;
+}
+.First-Mvp-k span{
+	font-weight: 400;
+	font-size: 15px;
+	margin-inline-start: 1px;
+}
+/* Второе дополнительный текст */
+.Second-Mvp-k{
+	position: absolute;
+	width: 184px;
+	height: 42px;
+	left: 55px;
+	top: 171px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 19.3109px;
+	line-height: 20px;
+	color: #FFFFFF;
+}
+.Second-Mvp-k span{
+	font-weight: 400;
+	font-size: 15px;
+	margin-inline-start: 1px;
+}
+/* Третье дополнительный текст */
+.Third-Mvp-k{
+	position: absolute;
+	width: 184px;
+	height: 42px;
+	left: 55px;
+	top: 232px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 19.3109px;
+	line-height: 20px;
+	color: #FFFFFF;
+}
+.Third-Mvp-k span{
+	font-weight: 400;
+	font-size: 15px;
+	margin-inline-start: 1px;
+}
+/* 1₽ */
+.One-Mvp-k{
+	position: absolute;
+	width: 20px;
+	height: 21px;
+	left: 40px;
+    top: 8px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 17.0364px;
+	line-height: 21px;
+	/* identical to box height */
+	color: #000000;
+}
+/* Rectangle v */
+.Rectangle-m-k{
+	position: absolute;
+	width: 100.79px;
+    height: 37.95px;
+    left: 1408px;
+    top: 1634px;
+	border: 5px solid #FFFFFF;
+	border-radius: 28.9618px;
+	transition: all .4s ease-in-out;
+}
+.Rectangle-m-k:hover{
+	background: #FFFFFF;
+}
+/* _____________________TG__________________________ */
+/* TG */
+.TG{
+	position: absolute;
+	width: 2345px;
+	height: 567.1px;
+	left: -429.07px;
+	top: 1850px;
+}
+/* Left-Grass */
+.Left-Grass{
+	position: absolute;
+	width: 450px;
+	height: 490px;
+	left: 430px;
+    top: 10px;
+	background: url(Images/Left-Grass.png);
+}
+/* Grass */
+.Grass{
+	position: absolute;
+	width: 969.07px;
+	height: 545.1px;
+	left: 870px;
+    top: 0px;
+	background: url(Images/Grass.png);
+	filter: blur(4px);
+}
+/* Right-Grass */
+.Right-Grass{
+	position: absolute;
+	width: 600px;
+	height: 485px;
+	left: 1750px;
+	top: 32px;
+	background: url(Images/Right-Grass.png);
+}
+/* Chest */
+.Chest{
+	position: absolute;
+	width: 440.64px;
+	height: 491.59px;
+	left: 823px;
+	top: 75px;
+	background: url(Images./Chest.png);
+}
+/* Left-TG */
+.Left-TG{
+	position: absolute;
+	width: 213.25px;
+	height: 210px;
+	left: 690px;
+    top: 75px;
+	background: url(Images/Left-TG.png);
+	filter: blur(6.5px);
+}
+/* Right-TG */
+.Right-TG{
+	position: absolute;
+	width: 152.1px;
+	height: 125px;
+	left: 1100px;
+    top: 205px;
+	background: url(Images/Right-TG.png);
+	filter: blur(6.5px);
+}
+/* Не упусти возможность открыть Донат кейс */
+.Chest-Text{
+	position: absolute;
+	width: 642px;
+	height: 110px;
+	left: 1317px;
+    top: 150px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 55px;
+	color: #FFFFFF;
+}
+/* Rectangle 9 */
+.Rectangle-9{
+	position: absolute;
+    width: 218px;
+    height: 55px;
+    left: 1558px;
+    top: 204px;
+    border: 5px solid #FFFFFF;
+	border-radius: 13px;
+	transition: all .4s ease-in-out;
+}
+.Rectangle-9:hover{
+	background: #FFFFFF;
+}
+/* бесплатно! */
+.Free{
+	position: absolute;
+	width: 164px;
+	height: 42px;
+	left: 26px;
+    top: 6px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 27.094px;
+	line-height: 42px;
+	/* identical to box height */
+	color: #572611;
+}
+/* За подписку на наш Telegram канал */
+.Sub-TG{
+	position: absolute;
+	width: 375px;
+	height: 30px;
+	left: 1317px;
+    top: 283px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 150.84%;
+	/* or 30px */
+	color: #E3E3E3;
+}
+/* Rectangle 10 */
+.Rectangle-10{
+	box-sizing: border-box;
+	position: absolute;
+	width: 398px;
+    height: 91.33px;
+    left: 1309px;
+    top: 350px;
+	background: linear-gradient(180deg, #9C4B28 0%, #4A200E 100%);
+	box-shadow: 0px 10px 8px rgba(241, 177, 11, 0.26), inset 0px -10px 0px rgba(0, 0, 0, 0.25);
+	border-radius: 100px;
+}
+/* Подписаться на канал */
+.Subscribe{
+	position: absolute;
+	width: 300px;
+	height: 30px;
+    left: 50px;
+    top: 25px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 25px;
+	line-height: 30px;
+	background: linear-gradient(180deg, #FFFFFF 55.73%, #AA3504 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+/* server online */
+.Server-Online{
+	position: absolute;
+	width: 1600px;
+	height: 730px;
+	left: 140px;
+	top: 2430px;
+
+}
+/* ______________________Server Online_________________________________*/
+/* Table */
+.Table{
+	position: absolute;
+	width: 1601.4px;
+	height: 790px;
+	left: 0px;
+	top: 7px;
+	background: url(Images/Table.png);
+}
+/* 409 ИГРОКОВ */
+.Players{
+	position: absolute;
+	width: 727px;
+	height: 145px;
+	left: 437.28px;
+    top: 67px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 96px;
+	line-height: 150.84%;
+	/* identical to box height, or 145px */
+	color: #FFFFFF;
+}
+/* сейчас на сервере */
+.Now{
+	position: absolute;
+	width: 392px;
+	height: 60px;
+	left: 591.18px;
+	top: 182px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 150.84%;
+	/* or 60px */
+	color: #FFFFFF;
+}
+/* Ellipse 2 */
+.Ellipse-2{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 990px;
+	top: 203px;
+	background: #58DC1B;
+	transform: matrix(-1, 0, 0, 1, 0, 0);
+	border-radius: 50%;
+}
+/* Ellipse 3 */
+.Ellipse-3{
+	position: absolute;
+	width: 807.35px;
+	height: 66.8px;
+	left: 540px;
+	top: 400px;
+	background: rgba(0, 0, 0, 0.6);
+	filter: blur(9px);
+	border-radius: 50%;
+}
+/* Rectangle 2 Down */
+.Rectangle-2-d{
+	width: 400px;
+    height: 91px;
+	box-sizing: border-box;
+	position: absolute;
+	left: 620px;
+    right: 0%;
+    top: 310px;
+	bottom: 0%;
+	background: linear-gradient(180deg, #9C4B28 0%, #4A200E 100%);
+	box-shadow: 0px 10px 8px rgba(241, 177, 11, 0.26), inset 0px -10px 0px rgba(0, 0, 0, 0.25);
+	border-radius: 100px;
+}
+/* Feplex.com, 19132  Down*/
+.Server-Text-d{
+	position: absolute;
+	left: 17.23%;
+	right: 26.52%;
+	top: 27.05%;
+	bottom: 40.1%;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 25px;
+	line-height: 30px;
+	background: linear-gradient(180deg, #FFFFFF 55.73%, #AA3504 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+}
+/* Server-Copy Down */
+.Server-Copy-d{
+	position: absolute;
+	left: 77.17%;
+	right: 17.23%;
+	top: 29.27%;
+	bottom: 42.32%;
+	background: url(Images/Copy.png);
+}
+/* ______________________Footer_________________________________*/
+/* Rectangle 11 */
+.Rectangle-11{
+	position: absolute;
+	width: 1920px;
+	height: 176.2px;
+	left: 0px;
+	top: 3048px;
+	background: rgba(105, 53, 30, 0.8);
+	box-shadow: inset 0px -7px 0px rgba(0, 0, 0, 0.25);
+	backdrop-filter: blur(7.5px);
+	/* Note: backdrop-filter has minimal browser support */
+}
+/* Feplex 2022 nikita@feplex.ru ИП Агафонов Никита Андреевич ИНН 0291193330 ОГРН 299190137 */
+.Kon{
+	position: absolute;
+	width: 285px;
+	height: 120px;
+	left: 383.33px;
+	top: 22px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16.0051px;
+	line-height: 150.84%;
+	/* or 24px */
+	color: #FFFFFF;
+}
+/* Конфиденциальность */
+.Privacy{
+	position: absolute;
+	width: 155px;
+	height: 20px;
+	left: 1384.37px;
+	top: 22px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13.5335px;
+	line-height: 150.84%;
+	/* or 20px */
+	color: #9A9A9A;
+}
+/* Пользовательское соглашение */
+.Agreement{
+	position: absolute;
+	width: 221px;
+	height: 20px;
+	left: 1319.24px;
+	top: 42px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13.5335px;
+	line-height: 150.84%;
+	/* or 20px */
+	color: #9A9A9A;
+}
+/* Rectangle 12 */
+.Rectangle-12{
+	position: absolute;
+	width: 380px;
+	height: 60.1px;
+	left: 1160px;
+	top: 80px;
+	background: #572611;
+	border-radius: 16px;
+}
+/* mir */
+.Mir{
+	position: absolute;
+	width: 39.9px;
+	height: 10.54px;
+	left: 8px;
+    top: 20px;
+}
+/* visa */
+.Visa{
+	position: absolute;
+	width: 31.62px;
+	height: 10.54px;
+	left: 57px;
+	top: 20px;
+}
+/* mastercard */
+.Mastercard{
+	position: absolute;
+	width: 22.59px;
+	height: 13.55px;
+	left: 98px;
+	top: 20px;
+}
+/* qiwi */
+.Qiwi{
+	position: absolute;
+	width: 13.55px;
+	height: 13.55px;
+    left: 130px;
+	top: 20px;
+}
+/* applePay */
+.ApplePay{
+	position: absolute;
+	width: 30.12px;
+	height: 12.05px;
+	left: 152px;
+	top: 20px;
+}
+/* spay */
+.Spay{
+	position: absolute;
+	width: 28.61px;
+	height: 12.8px;
+	left: 191px;
+	top: 20px;
+}
+/* gpay */
+.Gpay{
+	position: absolute;
+	width: 30.87px;
+	height: 12.05px;
+	left: 229px;
+	top: 20px;
+}
+/* megafon */
+.Megafon{
+	position: absolute;
+	width: 13.55px;
+	height: 13.55px;
+    left: 268px;
+	top: 20px;
+}
+/* mts */
+.Mts{
+	position: absolute;
+	width: 38.4px;
+	height: 9.03px;
+    left: 291px;
+    top: 19px;
+}
+/* tele2 */
+.Tele2{
+	position: absolute;
+	width: 32.38px;
+	height: 11.29px;
+	left: 338px;
+	top: 20px;
+}
+
+/* __________________________________________________________*/ 
+
+/* POPUP MVP */
+.popup-mvp{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+	top: 0;
+	left: 0;
+	opacity: 0;
+	visibility: hidden;
+	overflow-y: auto;
+	overflow-x: hidden;
+	transition: all 0.8s ease 0s;
+	z-index: 999;
+}
+.popup-mvp:target{
+	opacity: 1;
+	visibility: visible;
+}
+.popup-mvp:target .popup__content-mvp{
+	/*	transform: translate(0px, 0px);*/
+	transform: perspective(600px) translate(0px, 0%) rotate(0deg);
+	opacity: 1;
+}
+.popup__area-mvp{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0px;
+}
+.popup__body-mvp{
+	min-height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 30px 10px;
+}
+.popup__content-mvp{
+	box-sizing: border-box;
+	position: relative;
+	width: 1160px;
+    height: 930.03px;
+/*	left: 380px;
+	top: 1114.01px;*/
+	background: linear-gradient(180deg, #9C4B28 0%, #4A200E 105.16%);
+	border-radius: 49.7748px;
+
+	/*background-color: #fff;
+	color: #000;
+	max-width: 800px;
+	padding: 30px;
+	position: relative;*/
+
+	transition: all 0.8s ease 0s;
+	opacity: 0;
+	/*	transform: translate(0px, -100%);*/
+	transform: perspective(600px) translate(0px, -100%) rotate(45deg);
+	z-index: 999;
+}
+.popup__title-mvp{
+	position: absolute;
+	left: 450px;
+    top: 68px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 29.5547px;
+	line-height: 36px;
+	/* identical to box height */
+	color: #FFFFFF;
+}
+/* MVP KING на аккаунт Nikita */
+.popup__title-mvp span{
+	position: absolute;
+	left: 0px;
+    top: 55px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 21.0067px;
+	line-height: 26px;
+	/* identical to box height */
+	color: #FFFFFF;
+}
+.popup__close-mvp{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	font-size: 20px;
+	color: #000;
+	text-decoration: none;
+}
+.close__ellipse-mvp{
+	/* Ellipse 4 */
+	position: absolute;
+	width: 48.63px;
+	height: 48.63px;
+	right: 45px;
+    top: 35px;
+	border-radius: 100px;
+	background: #532410;
+}
+/* Group 10 */
+.Group-10-mvp{
+	position: absolute;
+	width: 21.39px;
+	height: 20.98px;
+	left: 1449.04px;
+	top: 1173.26px;
+}
+/* Line 1 (Stroke) */
+.line1-mvp{
+	position: absolute;
+	width: 26.39px;
+	height: 2.73px;
+	right: 56px;
+    top: 59px;
+	background: #FCA554;
+	transform: matrix(0.71, -0.73, 0.68, 0.71, 0, 0);
+}
+/* Line 2 (Stroke) */
+.line2-mvp{
+	position: absolute;
+	width: 26.39px;
+	height: 2.73px;
+	right: 55px;
+    top: 58px;
+	background: #FCA554;
+	transform: matrix(0.71, 0.73, -0.68, 0.71, 0, 0);
+}
+/* popup__mvp */
+.popup__mvp{
+	position: absolute;
+	width: 98.31px;
+	height: 98.25px;
+	left: 15px;
+    top: 17px;
+}
+/* Rectangle-popup-mvp */
+.Rectangle-popup-mvp{
+	position: absolute;
+	left: 300px;
+    right: 750px;
+    top: 50px;
+    bottom: 765px;
+	background: linear-gradient(180deg, #00B2FF 0.01%, #00068A 100%);
+	box-shadow: 0px 1.56901px 3.92251px rgba(0, 0, 0, 0.25);
+	border-radius: 39.1837px;
+}
+/* Rectangle 25 */
+.Rectangle-25-mvp{
+	position: absolute;
+	width: 406.27px;
+	height: 0.5px;
+	left: 450px;
+    top: 113px;
+	background: #532410;
+}
+/* Group 16 */
+.Group-16-mvp{
+	position: absolute;
+	width: 560.43px;
+	height: 79.41px;
+	left: 300px;
+    top: 210px;
+}
+/* Rectangle-6 */
+.Rectangle-6-mvp{
+	position: absolute;
+    left: 0px;
+    top: 0px;
+    background: #994927;
+    border-radius: 50px;
+    width: 560px;
+    height: 80px;
+}
+/* Rectangle-popup-7 */
+.Rectangle-popup-7-mvp{
+	position: absolute;
+    left: 0px;
+    top: 0px;
+    background: #532410;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    width: 90px;
+    height: 80px;
+}
+/* Iconly/Bold/Message */
+.Message{
+	position: absolute;
+	left: 39px;
+    top: 24px;
+}
+/* Введите Ваш почтовый адрес */
+.popup-message-text-mvp{
+	position: absolute;
+    left: 116px;
+    top: 28px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+	color: #FFFFFF;
+}
+/* Group-17 */
+.Group-17-mvp{
+	position: absolute;
+	width: 560.43px;
+	height: 79.41px;
+	left: 300px;
+    top: 310px;
+}
+/* Iconly/Bold/Message */
+.Ticket{
+	position: absolute;
+	left: 39px;
+    top: 27px;
+}
+/* Frame 3 */
+.Frame-popup-3-mvp{
+	box-sizing: border-box;
+	/* Auto layout */
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 14.6244px 19.0117px;
+	gap: 7.31px;
+	position: absolute;
+	width: 115px;
+    height: 50px;
+    left: 300px;
+    top: 420px;
+	border: 3.6561px solid #572611;
+	border-radius: 26.3239px;
+	transition: all .4s ease-in-out;
+	cursor: pointer;
+}
+/* На месяц */
+.Frame-popup-3-mvp span{
+	width: 75px;
+	height: 18px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14.6244px;
+	line-height: 18px;
+	/* identical to box height */
+	color: #FFFFFF;
+	/* Inside auto layout */
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: -3px 0px 0 -3px;
+}
+.Frame-popup-3-mvp:hover{
+	border: solid #FBA454;
+	background: #FBA454;
+}
+/* Frame 4 */
+.Frame-popup-4-mvp{
+	box-sizing: border-box;
+	/* Auto layout */
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 14.6244px 19.0117px;
+	gap: 7.31px;
+	position: absolute;
+	width: 134.02px;
+	height: 47.25px;
+	left: 424px;
+    top: 420px;
+	border: 3.6561px solid #572611;
+	border-radius: 26.3239px;
+	transition: all .4s ease-in-out;
+	cursor: pointer;
+}
+/* На 3 месяца */
+.Frame-popup-4-mvp span{
+	width: 96px;
+	height: 18px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14.6244px;
+	line-height: 18px;
+	/* identical to box height */
+	color: #FFFFFF;
+	/* Inside auto layout */
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: -3px 0px 0 -3px;
+}
+.Frame-popup-4-mvp:hover{
+	border: solid #FBA454;
+	background: #FBA454;
+}
+/* Frame 4 */
+.Frame-popup-5-mvp{
+	box-sizing: border-box;
+	/* Auto layout */
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 14.6244px 19.0117px;
+	gap: 7.31px;
+	position: absolute;
+	width: 90px;
+    height: 47px;
+    left: 565px;
+    top: 420px;
+	border: 3.6561px solid #572611;
+	border-radius: 26.3239px;
+	transition: all .4s ease-in-out;
+	cursor: pointer;
+}
+/* На год */
+.Frame-popup-5-mvp span{
+	width: 52px;
+	height: 18px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14.6244px;
+	line-height: 18px;
+	/* identical to box height */
+	color: #FFFFFF;
+	/* Inside auto layout */
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: -3px 0px 0 -3px;
+}
+.Frame-popup-5-mvp:hover{
+	border: solid #FBA454;
+	background: #FBA454;
+}
+/* Выберите способ оплаты */
+.Choose-method-mvp{
+	position: absolute;
+    left: 304px;
+    top: 493px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 29px;
+	color: #FFFFFF;
+}
+/* Variant1 */
+.Variant1-mvp{
+	position: absolute;
+	width: 126.7px;
+	height: 80.24px;
+	left: 304px;
+    top: 550px;
+}
+/* Rectangle-19 */
+.Rectangle-19-mvp{
+	box-sizing: border-box;
+	position: absolute;
+	width: 126.7px;
+	height: 80.24px;
+	left: 0px;
+	top: 0px;
+	border: 3.22637px solid #FFFFFF;
+	border-radius: 19.3582px;
+	transition: all .4s ease-in-out;
+	cursor: pointer;
+}
+.Rectangle-19-mvp:hover{
+	border: solid #fff;
+	background: #fff;
+}
+/* Qiwi */
+.Qiwi-v-mvp{
+	position: absolute;
+	width: 33px;
+    height: 34px;
+    left: 43px;
+    top: 20px;
+}
+/* Variant2 */
+.Variant2-mvp{
+	position: absolute;
+	width: 126.7px;
+	height: 80.24px;
+	left: 448px;
+    top: 550px;
+}
+/* Variant3 */
+.Variant3-mvp{
+	position: absolute;
+	width: 126.7px;
+	height: 80.24px;
+	left: 593px;
+    top: 550px;
+}
+/* Variant4 */
+.Variant4-mvp{
+	position: absolute;
+	width: 126.7px;
+	height: 80.24px;
+	left: 736px;
+    top: 550px;
+}
+/* Variant5 */
+.Variant5-mvp{
+	position: absolute;
+	width: 126.7px;
+	height: 80.24px;
+	left: 304px;
+    top: 658px;
+}
+/* Variant6 */
+.Variant6-mvp{
+	position: absolute;
+	width: 126.7px;
+	height: 80.24px;
+	left: 448px;
+    top: 658px;
+}
+/* Variant7 */
+.Variant7-mvp{
+	position: absolute;
+	width: 126.7px;
+	height: 80.24px;
+	left: 593px;
+    top: 658px;
+}
+/* Variant8 */
+.Variant8-mvp{
+	position: absolute;
+	width: 126.7px;
+	height: 80.24px;
+	left: 736px;
+    top: 658px;
+}
+/* Rectangle-19 */
+.Rectangle-popup-19-mvp{
+	box-sizing: border-box;
+	position: absolute;
+	width: 1160px;
+	height: 158.27px;
+    left: 0px;
+    top: 773px;
+	background: linear-gradient(180deg, #461B08 0%, #4A200E 105.16%);
+	box-shadow: inset 0px -7.65766px 0px rgba(0, 0, 0, 0.25);
+	border-radius: 49.7748px;
+}
+/* CHECKBOX*/
+.checkbox__input-mvp{
+	-webkit-appearance: none;
+	appearance: none;
+	position: absolute;
+}
+.checkbox-mvp{
+	position: relative;
+	top: 834px;
+    left: 640px;
+}
+.checkbox__label-mvp{
+	padding-left: 25px;
+	font-size: 1rem;
+	color: #444;
+	cursor: pointer;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 17px;
+	color: #FFFFFF;
+}
+.checkbox__label-mvp span{
+	color: #FBA454;
+}
+.checkbox__label-mvp:before{
+	content: "";
+	display: block;
+	width: 16px;
+	height: 16px;
+	background-color: #fff;
+	border: 2px solid #FFFFFF;
+	border-radius: 8px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	transition: background .1s linear, border .1 linear;
+
+}
+.checkbox__label-mvp:after{
+	content: "";
+	display: block;
+	width: 12px;
+	height: 12px;
+	background: url("Images/check.svg") no-repeat;
+	background-size: 12px 12px; 
+	opacity: 0;
+	position: absolute;
+	top: 3px;
+	left: 3px;
+	z-index: 2;
+	transition: opacity .1s linear;
+}
+.checkbox__input-mvp:checked + .checkbox__label-mvp:before{
+	background-color: Green; 
+	border-color: darkgreen;
+}
+.checkbox__input-mvp:checked + .checkbox__label-mvp:after{
+	opacity: 1;
+}
+/* Перейти к оплате */
+/* Rectangle 10 */
+.Rectangle-popup-10-mvp{
+	box-sizing: border-box;
+	position: absolute;
+	width: 277.95px;
+	height: 63.46px;
+	left: 326px;
+    top: 812px;
+	background: linear-gradient(180deg, #9C4B28 0%, #4A200E 100%);
+	box-shadow: inset 0px -6.94874px 0px rgba(0, 0, 0, 0.25);
+	border-radius: 69.4874px;
+}
+/* Перейти к оплате 1₽ */
+.Rectangle-popup-10-text-mvp{
+	position: absolute;
+	width: 191px;
+	height: 21px;
+    left: 46px;
+    top: 17px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 17.3719px;
+	line-height: 21px;
+	background: linear-gradient(180deg, #FFFFFF 55.73%, #AA3504 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+}
+/* __________________________________________________________________________________________________________________*/
+
+	
+
+/* POPUP VIP */
+.popup-vip{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+	top: 0;
+	left: 0;
+	opacity: 0;
+	visibility: hidden;
+	overflow-y: auto;
+	overflow-x: hidden;
+	transition: all 0.8s ease 0s;
+	z-index: 999;
+}
+.popup-vip:target{
+	opacity: 1;
+	visibility: visible;
+}
+.popup-vip:target .popup__content-vip{
+	/*	transform: translate(0px, 0px);*/
+	transform: perspective(600px) translate(0px, 0%) rotate(0deg);
+	opacity: 1;
+}
+.popup__area-vip{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0px;
+}
+.popup__body-vip{
+	min-height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 30px 10px;
+}
+.popup__content-vip{
+	box-sizing: border-box;
+	position: relative;
+	width: 1160px;
+    height: 930.03px;
+/*	left: 380px;
+	top: 1114.01px;*/
+	background: linear-gradient(180deg, #9C4B28 0%, #4A200E 105.16%);
+	border-radius: 49.7748px;
+
+	/*background-color: #fff;
+	color: #000;
+	max-width: 800px;
+	padding: 30px;
+	position: relative;*/
+
+	transition: all 0.8s ease 0s;
+	opacity: 0;
+	/*	transform: translate(0px, -100%);*/
+	transform: perspective(600px) translate(0px, -100%) rotate(45deg);
+	z-index: 999;
+}
+.popup__title-vip{
+	position: absolute;
+	left: 450px;
+    top: 68px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 29.5547px;
+	line-height: 36px;
+	/* identical to box height */
+	color: #FFFFFF;
+}
+/* MVP KING на аккаунт Nikita */
+.popup__title-vip span{
+	position: absolute;
+	left: 0px;
+    top: 55px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 21.0067px;
+	line-height: 26px;
+	/* identical to box height */
+	color: #FFFFFF;
+}
+.popup__close-vip{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	font-size: 20px;
+	color: #000;
+	text-decoration: none;
+}
+.close__ellipse-vip{
+	/* Ellipse 4 */
+	position: absolute;
+	width: 48.63px;
+	height: 48.63px;
+	right: 45px;
+    top: 35px;
+	border-radius: 100px;
+	background: #532410;
+}
+/* Group 10 */
+.Group-10-vip{
+	position: absolute;
+	width: 21.39px;
+	height: 20.98px;
+	left: 1449.04px;
+	top: 1173.26px;
+}
+/* Line 1 (Stroke) */
+.line1-vip{
+	position: absolute;
+	width: 26.39px;
+	height: 2.73px;
+	right: 56px;
+    top: 59px;
+	background: #FCA554;
+	transform: matrix(0.71, -0.73, 0.68, 0.71, 0, 0);
+}
+/* Line 2 (Stroke) */
+.line2-vip{
+	position: absolute;
+	width: 26.39px;
+	height: 2.73px;
+	right: 55px;
+    top: 58px;
+	background: #FCA554;
+	transform: matrix(0.71, 0.73, -0.68, 0.71, 0, 0);
+}
+/* popup__vip */
+.popup__vip{
+	position: absolute;
+	width: 98.31px;
+	height: 98.25px;
+	left: 4px;
+    top: 8px;
+}
+/* Rectangle-popup-mvp */
+.Rectangle-popup-vip{
+	position: absolute;
+	left: 300px;
+    right: 750px;
+    top: 50px;
+    bottom: 765px;
+	background: linear-gradient(180deg, #FFB800 0%, #52FF00 0.01%, #008A16 100%);
+    box-shadow: 0px 1.56901px 3.92251px rgb(0 0 0 / 25%);
+    border-radius: 39.1837px;
+}
+/* Rectangle 25 */
+.Rectangle-25-vip{
+	position: absolute;
+	width: 406.27px;
+	height: 0.5px;
+	left: 450px;
+    top: 113px;
+	background: #532410;
+}
+/* Group 16 */
+.Group-16-vip{
+	position: absolute;
+	width: 560.43px;
+	height: 79.41px;
+	left: 300px;
+    top: 210px;
+}
+/* Rectangle-6 */
+.Rectangle-6-vip{
+	position: absolute;
+    left: 0px;
+    top: 0px;
+    background: #994927;
+    border-radius: 50px;
+    width: 560px;
+    height: 80px;
+}
+/* Rectangle-popup-7 */
+.Rectangle-popup-7-vip{
+	position: absolute;
+    left: 0px;
+    top: 0px;
+    background: #532410;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    width: 90px;
+    height: 80px;
+}
+/* Iconly/Bold/Message */
+.Message{
+	position: absolute;
+	left: 39px;
+    top: 24px;
+}
+/* Введите Ваш почтовый адрес */
+.popup-message-text-vip{
+	position: absolute;
+    left: 116px;
+    top: 28px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+	color: #FFFFFF;
+}
+/* Group-17 */
+.Group-17-vip{
+	position: absolute;
+	width: 560.43px;
+	height: 79.41px;
+	left: 300px;
+    top: 310px;
+}
+/* Iconly/Bold/Message */
+.Ticket-vip{
+	position: absolute;
+	left: 39px;
+    top: 27px;
+}
+/* Frame 3 */
+.Frame-popup-3-vip{
+	box-sizing: border-box;
+	/* Auto layout */
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 14.6244px 19.0117px;
+	gap: 7.31px;
+	position: absolute;
+	width: 115px;
+    height: 50px;
+    left: 300px;
+    top: 420px;
+	border: 3.6561px solid #572611;
+	border-radius: 26.3239px;
+	transition: all .4s ease-in-out;
+	cursor: pointer;
+}
+/* На месяц */
+.Frame-popup-3-vip span{
+	width: 75px;
+	height: 18px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14.6244px;
+	line-height: 18px;
+	/* identical to box height */
+	color: #FFFFFF;
+	/* Inside auto layout */
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: -3px 0px 0 -3px;
+}
+.Frame-popup-3-vip:hover{
+	border: solid #FBA454;
+	background: #FBA454;
+}
+/* Frame 4 */
+.Frame-popup-4-vip{
+	box-sizing: border-box;
+	/* Auto layout */
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 14.6244px 19.0117px;
+	gap: 7.31px;
+	position: absolute;
+	width: 134.02px;
+	height: 47.25px;
+	left: 424px;
+    top: 420px;
+	border: 3.6561px solid #572611;
+	border-radius: 26.3239px;
+	transition: all .4s ease-in-out;
+	cursor: pointer;
+}
+/* На 3 месяца */
+.Frame-popup-4-vip span{
+	width: 96px;
+	height: 18px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14.6244px;
+	line-height: 18px;
+	/* identical to box height */
+	color: #FFFFFF;
+	/* Inside auto layout */
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: -3px 0px 0 -3px;
+}
+.Frame-popup-4-vip:hover{
+	border: solid #FBA454;
+	background: #FBA454;
+}
+/* Frame 4 */
+.Frame-popup-5-vip{
+	box-sizing: border-box;
+	/* Auto layout */
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 14.6244px 19.0117px;
+	gap: 7.31px;
+	position: absolute;
+	width: 90px;
+    height: 47px;
+    left: 565px;
+    top: 420px;
+	border: 3.6561px solid #572611;
+	border-radius: 26.3239px;
+	transition: all .4s ease-in-out;
+	cursor: pointer;
+}
+/* На год */
+.Frame-popup-5-vip span{
+	width: 52px;
+	height: 18px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14.6244px;
+	line-height: 18px;
+	/* identical to box height */
+	color: #FFFFFF;
+	/* Inside auto layout */
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: -3px 0px 0 -3px;
+}
+.Frame-popup-5-vip:hover{
+	border: solid #FBA454;
+	background: #FBA454;
+}
+/* Выберите способ оплаты */
+.Choose-method-vip{
+	position: absolute;
+    left: 304px;
+    top: 493px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 29px;
+	color: #FFFFFF;
+}
+/* Variant1 */
+.Variant1-vip{
+	position: absolute;
+	width: 126.7px;
+	height: 80.24px;
+	left: 304px;
+    top: 550px;
+}
+/* Rectangle-19 */
+.Rectangle-19-vip{
+	box-sizing: border-box;
+	position: absolute;
+	width: 126.7px;
+	height: 80.24px;
+	left: 0px;
+	top: 0px;
+	border: 3.22637px solid #FFFFFF;
+	border-radius: 19.3582px;
+	transition: all .4s ease-in-out;
+	cursor: pointer;
+}
+.Rectangle-19-vip:hover{
+	border: solid #fff;
+	background: #fff;
+}
+/* Qiwi */
+.Qiwi-v-vip{
+	position: absolute;
+	width: 33px;
+    height: 34px;
+    left: 43px;
+    top: 20px;
+}
+/* Variant2 */
+.Variant2-vip{
+	position: absolute;
+	width: 126.7px;
+	height: 80.24px;
+	left: 448px;
+    top: 550px;
+}
+/* Variant3 */
+.Variant3-vip{
+	position: absolute;
+	width: 126.7px;
+	height: 80.24px;
+	left: 593px;
+    top: 550px;
+}
+/* Variant4 */
+.Variant4-vip{
+	position: absolute;
+	width: 126.7px;
+	height: 80.24px;
+	left: 736px;
+    top: 550px;
+}
+/* Variant5 */
+.Variant5-vip{
+	position: absolute;
+	width: 126.7px;
+	height: 80.24px;
+	left: 304px;
+    top: 658px;
+}
+/* Variant6 */
+.Variant6-vip{
+	position: absolute;
+	width: 126.7px;
+	height: 80.24px;
+	left: 448px;
+    top: 658px;
+}
+/* Variant7 */
+.Variant7-vip{
+	position: absolute;
+	width: 126.7px;
+	height: 80.24px;
+	left: 593px;
+    top: 658px;
+}
+/* Variant8 */
+.Variant8-vip{
+	position: absolute;
+	width: 126.7px;
+	height: 80.24px;
+	left: 736px;
+    top: 658px;
+}
+/* Rectangle-19 */
+.Rectangle-popup-19-vip{
+	box-sizing: border-box;
+	position: absolute;
+	width: 1160px;
+	height: 158.27px;
+    left: 0px;
+    top: 773px;
+	background: linear-gradient(180deg, #461B08 0%, #4A200E 105.16%);
+	box-shadow: inset 0px -7.65766px 0px rgba(0, 0, 0, 0.25);
+	border-radius: 49.7748px;
+}
+/* CHECKBOX*/
+.checkbox__input-vip{
+	-webkit-appearance: none;
+	appearance: none;
+	position: absolute;
+}
+.checkbox-vip{
+	position: relative;
+	top: 834px;
+    left: 640px;
+}
+.checkbox__label-vip{
+	padding-left: 25px;
+	font-size: 1rem;
+	color: #444;
+	cursor: pointer;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 17px;
+	color: #FFFFFF;
+}
+.checkbox__label-vip span{
+	color: #FBA454;
+}
+.checkbox__label-vip:before{
+	content: "";
+	display: block;
+	width: 16px;
+	height: 16px;
+	background-color: #fff;
+	border: 2px solid #FFFFFF;
+	border-radius: 8px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	transition: background .1s linear, border .1 linear;
+
+}
+.checkbox__label-vip:after{
+	content: "";
+	display: block;
+	width: 12px;
+	height: 12px;
+	background: url("Images/check.svg") no-repeat;
+	background-size: 12px 12px; 
+	opacity: 0;
+	position: absolute;
+	top: 3px;
+	left: 3px;
+	z-index: 2;
+	transition: opacity .1s linear;
+}
+.checkbox__input-vip:checked + .checkbox__label-vip:before{
+	background-color: Green; 
+	border-color: darkgreen;
+}
+.checkbox__input-vip:checked + .checkbox__label-vip:after{
+	opacity: 1;
+}
+/* Перейти к оплате */
+/* Rectangle 10 */
+.Rectangle-popup-10-vip{
+	box-sizing: border-box;
+	position: absolute;
+	width: 277.95px;
+	height: 63.46px;
+	left: 326px;
+    top: 812px;
+	background: linear-gradient(180deg, #9C4B28 0%, #4A200E 100%);
+	box-shadow: inset 0px -6.94874px 0px rgba(0, 0, 0, 0.25);
+	border-radius: 69.4874px;
+}
+/* Перейти к оплате 1₽ */
+.Rectangle-popup-10-text-vip{
+	position: absolute;
+	width: 191px;
+	height: 21px;
+    left: 46px;
+    top: 17px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 17.3719px;
+	line-height: 21px;
+	background: linear-gradient(180deg, #FFFFFF 55.73%, #AA3504 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+}
+
+
+/* __________________________________________________________*/ 
+
+/* POPUP MVP+ */
+.popup-mvp-p{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+	top: 0;
+	left: 0;
+	opacity: 0;
+	visibility: hidden;
+	overflow-y: auto;
+	overflow-x: hidden;
+	transition: all 0.8s ease 0s;
+	z-index: 999;
+}
+.popup-mvp-p:target{
+	opacity: 1;
+	visibility: visible;
+}
+.popup-mvp-p:target .popup__content-mvp-p{
+	/*	transform: translate(0px, 0px);*/
+	transform: perspective(600px) translate(0px, 0%) rotate(0deg);
+	opacity: 1;
+}
+.popup__area-mvp-p{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0px;
+}
+.popup__body-mvp-p{
+	min-height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 30px 10px;
+}
+.popup__content-mvp-p{
+	box-sizing: border-box;
+	position: relative;
+	width: 1160px;
+    height: 930.03px;
+/*	left: 380px;
+	top: 1114.01px;*/
+	background: linear-gradient(180deg, #9C4B28 0%, #4A200E 105.16%);
+	border-radius: 49.7748px;
+
+	/*background-color: #fff;
+	color: #000;
+	max-width: 800px;
+	padding: 30px;
+	position: relative;*/
+
+	transition: all 0.8s ease 0s;
+	opacity: 0;
+	/*	transform: translate(0px, -100%);*/
+	transform: perspective(600px) translate(0px, -100%) rotate(45deg);
+	z-index: 999;
+}
+.popup__title-mvp-p{
+	position: absolute;
+	left: 450px;
+    top: 68px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 29.5547px;
+	line-height: 36px;
+	/* identical to box height */
+	color: #FFFFFF;
+}
+/* MVP KING на аккаунт Nikita */
+.popup__title-mvp-p span{
+	position: absolute;
+	left: 0px;
+    top: 55px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 21.0067px;
+	line-height: 26px;
+	/* identical to box height */
+	color: #FFFFFF;
+}
+.popup__close-mvp-p{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	font-size: 20px;
+	color: #000;
+	text-decoration: none;
+}
+.close__ellipse-mvp-p{
+	/* Ellipse 4 */
+	position: absolute;
+	width: 48.63px;
+	height: 48.63px;
+	right: 45px;
+    top: 35px;
+	border-radius: 100px;
+	background: #532410;
+}
+/* Group 10 */
+.Group-10-mvp-p{
+	position: absolute;
+	width: 21.39px;
+	height: 20.98px;
+	left: 1449.04px;
+	top: 1173.26px;
+}
+/* Line 1 (Stroke) */
+.line1-mvp-p{
+	position: absolute;
+	width: 26.39px;
+	height: 2.73px;
+	right: 56px;
+    top: 59px;
+	background: #FCA554;
+	transform: matrix(0.71, -0.73, 0.68, 0.71, 0, 0);
+}
+/* Line 2 (Stroke) */
+.line2-mvp-p{
+	position: absolute;
+	width: 26.39px;
+	height: 2.73px;
+	right: 55px;
+    top: 58px;
+	background: #FCA554;
+	transform: matrix(0.71, 0.73, -0.68, 0.71, 0, 0);
+}
+/* popup__mvp */
+.popup__mvp-p{
+	position: absolute;
+	width: 98.31px;
+	height: 98.25px;
+	left: 0px;
+    top: 20px;
+}
+/* Rectangle-popup-mvp */
+.Rectangle-popup-mvp-p{
+	position: absolute;
+	left: 300px;
+    right: 750px;
+    top: 50px;
+    bottom: 765px;
+	background: linear-gradient(180deg, #0380B6 0.01%, #131544 100%);
+    box-shadow: 0px 1.56901px 3.92251px rgb(0 0 0 / 25%);
+    border-radius: 39.1837px;
+}
+/* Rectangle 25 */
+.Rectangle-25-mvp-p{
+	position: absolute;
+	width: 406.27px;
+	height: 0.5px;
+	left: 450px;
+    top: 113px;
+	background: #532410;
+}
+/* Group 16 */
+.Group-16-mvp-p{
+	position: absolute;
+	width: 560.43px;
+	height: 79.41px;
+	left: 300px;
+    top: 210px;
+}
+/* Rectangle-6 */
+.Rectangle-6-mvp-p{
+	position: absolute;
+    left: 0px;
+    top: 0px;
+    background: #994927;
+    border-radius: 50px;
+    width: 560px;
+    height: 80px;
+}
+/* Rectangle-popup-7 */
+.Rectangle-popup-7-mvp-p{
+	position: absolute;
+    left: 0px;
+    top: 0px;
+    background: #532410;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    width: 90px;
+    height: 80px;
+}
+/* Iconly/Bold/Message */
+.Message{
+	position: absolute;
+	left: 39px;
+    top: 24px;
+}
+/* Введите Ваш почтовый адрес */
+.popup-message-text-mvp-p{
+	position: absolute;
+    left: 116px;
+    top: 28px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+	color: #FFFFFF;
+}
+/* Group-17 */
+.Group-17-mvp-p{
+	position: absolute;
+	width: 560.43px;
+	height: 79.41px;
+	left: 300px;
+    top: 310px;
+}
+/* Iconly/Bold/Message */
+.Ticket{
+	position: absolute;
+	left: 39px;
+    top: 27px;
+}
+/* Frame 3 */
+.Frame-popup-3-mvp-p{
+	box-sizing: border-box;
+	/* Auto layout */
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 14.6244px 19.0117px;
+	gap: 7.31px;
+	position: absolute;
+	width: 115px;
+    height: 50px;
+    left: 300px;
+    top: 420px;
+	border: 3.6561px solid #572611;
+	border-radius: 26.3239px;
+	transition: all .4s ease-in-out;
+	cursor: pointer;
+}
+/* На месяц */
+.Frame-popup-3-mvp-p span{
+	width: 75px;
+	height: 18px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14.6244px;
+	line-height: 18px;
+	/* identical to box height */
+	color: #FFFFFF;
+	/* Inside auto layout */
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: -3px 0px 0 -3px;
+}
+.Frame-popup-3-mvp-p:hover{
+	border: solid #FBA454;
+	background: #FBA454;
+}
+/* Frame 4 */
+.Frame-popup-4-mvp-p{
+	box-sizing: border-box;
+	/* Auto layout */
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 14.6244px 19.0117px;
+	gap: 7.31px;
+	position: absolute;
+	width: 134.02px;
+	height: 47.25px;
+	left: 424px;
+    top: 420px;
+	border: 3.6561px solid #572611;
+	border-radius: 26.3239px;
+	transition: all .4s ease-in-out;
+	cursor: pointer;
+}
+/* На 3 месяца */
+.Frame-popup-4-mvp-p span{
+	width: 96px;
+	height: 18px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14.6244px;
+	line-height: 18px;
+	/* identical to box height */
+	color: #FFFFFF;
+	/* Inside auto layout */
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: -3px 0px 0 -3px;
+}
+.Frame-popup-4-mvp-p:hover{
+	border: solid #FBA454;
+	background: #FBA454;
+}
+/* Frame 4 */
+.Frame-popup-5-mvp-p{
+	box-sizing: border-box;
+	/* Auto layout */
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 14.6244px 19.0117px;
+	gap: 7.31px;
+	position: absolute;
+	width: 90px;
+    height: 47px;
+    left: 565px;
+    top: 420px;
+	border: 3.6561px solid #572611;
+	border-radius: 26.3239px;
+	transition: all .4s ease-in-out;
+	cursor: pointer;
+}
+/* На год */
+.Frame-popup-5-mvp-p span{
+	width: 52px;
+	height: 18px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14.6244px;
+	line-height: 18px;
+	/* identical to box height */
+	color: #FFFFFF;
+	/* Inside auto layout */
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: -3px 0px 0 -3px;
+}
+.Frame-popup-5-mvp-p:hover{
+	border: solid #FBA454;
+	background: #FBA454;
+}
+/* Выберите способ оплаты */
+.Choose-method-mvp-p{
+	position: absolute;
+    left: 304px;
+    top: 493px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 29px;
+	color: #FFFFFF;
+}
+/* Variant1 */
+.Variant1-mvp-p{
+	position: absolute;
+	width: 126.7px;
+	height: 80.24px;
+	left: 304px;
+    top: 550px;
+}
+/* Rectangle-19 */
+.Rectangle-19-mvp-p{
+	box-sizing: border-box;
+	position: absolute;
+	width: 126.7px;
+	height: 80.24px;
+	left: 0px;
+	top: 0px;
+	border: 3.22637px solid #FFFFFF;
+	border-radius: 19.3582px;
+	transition: all .4s ease-in-out;
+	cursor: pointer;
+}
+.Rectangle-19-mvp-p:hover{
+	border: solid #fff;
+	background: #fff;
+}
+/* Qiwi */
+.Qiwi-v-mvp-p{
+	position: absolute;
+	width: 33px;
+    height: 34px;
+    left: 43px;
+    top: 20px;
+}
+/* Variant2 */
+.Variant2-mvp-p{
+	position: absolute;
+	width: 126.7px;
+	height: 80.24px;
+	left: 448px;
+    top: 550px;
+}
+/* Variant3 */
+.Variant3-mvp-p{
+	position: absolute;
+	width: 126.7px;
+	height: 80.24px;
+	left: 593px;
+    top: 550px;
+}
+/* Variant4 */
+.Variant4-mvp-p{
+	position: absolute;
+	width: 126.7px;
+	height: 80.24px;
+	left: 736px;
+    top: 550px;
+}
+/* Variant5 */
+.Variant5-mvp-p{
+	position: absolute;
+	width: 126.7px;
+	height: 80.24px;
+	left: 304px;
+    top: 658px;
+}
+/* Variant6 */
+.Variant6-mvp-p{
+	position: absolute;
+	width: 126.7px;
+	height: 80.24px;
+	left: 448px;
+    top: 658px;
+}
+/* Variant7 */
+.Variant7-mvp-p{
+	position: absolute;
+	width: 126.7px;
+	height: 80.24px;
+	left: 593px;
+    top: 658px;
+}
+/* Variant8 */
+.Variant8-mvp-p{
+	position: absolute;
+	width: 126.7px;
+	height: 80.24px;
+	left: 736px;
+    top: 658px;
+}
+/* Rectangle-19 */
+.Rectangle-popup-19-mvp-p{
+	box-sizing: border-box;
+	position: absolute;
+	width: 1160px;
+	height: 158.27px;
+    left: 0px;
+    top: 773px;
+	background: linear-gradient(180deg, #461B08 0%, #4A200E 105.16%);
+	box-shadow: inset 0px -7.65766px 0px rgba(0, 0, 0, 0.25);
+	border-radius: 49.7748px;
+}
+/* CHECKBOX*/
+.checkbox__input-mvp-p{
+	-webkit-appearance: none;
+	appearance: none;
+	position: absolute;
+}
+.checkbox-mvp-p{
+	position: relative;
+	top: 834px;
+    left: 640px;
+}
+.checkbox__label-mvp-p{
+	padding-left: 25px;
+	font-size: 1rem;
+	color: #444;
+	cursor: pointer;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 17px;
+	color: #FFFFFF;
+}
+.checkbox__label-mvp-p span{
+	color: #FBA454;
+}
+.checkbox__label-mvp-p:before{
+	content: "";
+	display: block;
+	width: 16px;
+	height: 16px;
+	background-color: #fff;
+	border: 2px solid #FFFFFF;
+	border-radius: 8px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	transition: background .1s linear, border .1 linear;
+
+}
+.checkbox__label-mvp-p:after{
+	content: "";
+	display: block;
+	width: 12px;
+	height: 12px;
+	background: url("Images/check.svg") no-repeat;
+	background-size: 12px 12px; 
+	opacity: 0;
+	position: absolute;
+	top: 3px;
+	left: 3px;
+	z-index: 2;
+	transition: opacity .1s linear;
+}
+.checkbox__input-mvp-p:checked + .checkbox__label-mvp-p:before{
+	background-color: Green; 
+	border-color: darkgreen;
+}
+.checkbox__input-mvp-p:checked + .checkbox__label-mvp-p:after{
+	opacity: 1;
+}
+/* Перейти к оплате */
+/* Rectangle 10 */
+.Rectangle-popup-10-mvp-p{
+	box-sizing: border-box;
+	position: absolute;
+	width: 277.95px;
+	height: 63.46px;
+	left: 326px;
+    top: 812px;
+	background: linear-gradient(180deg, #9C4B28 0%, #4A200E 100%);
+	box-shadow: inset 0px -6.94874px 0px rgba(0, 0, 0, 0.25);
+	border-radius: 69.4874px;
+}
+/* Перейти к оплате 1₽ */
+.Rectangle-popup-10-text-mvp-p{
+	position: absolute;
+	width: 191px;
+	height: 21px;
+    left: 46px;
+    top: 17px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 17.3719px;
+	line-height: 21px;
+	background: linear-gradient(180deg, #FFFFFF 55.73%, #AA3504 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+}
+
+
+/* __________________________________________________________*/ 
+
+/* POPUP MVP KING */
+.popup-mvp-k{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+	top: 0;
+	left: 0;
+	opacity: 0;
+	visibility: hidden;
+	overflow-y: auto;
+	overflow-x: hidden;
+	transition: all 0.8s ease 0s;
+	z-index: 999;
+}
+.popup-mvp-k:target{
+	opacity: 1;
+	visibility: visible;
+}
+.popup-mvp-k:target .popup__content-mvp-k{
+	/*	transform: translate(0px, 0px);*/
+	transform: perspective(600px) translate(0px, 0%) rotate(0deg);
+	opacity: 1;
+}
+.popup__area-mvp-k{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0px;
+}
+.popup__body-mvp-k{
+	min-height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 30px 10px;
+}
+.popup__content-mvp-k{
+	box-sizing: border-box;
+	position: relative;
+	width: 1160px;
+    height: 930.03px;
+/*	left: 380px;
+	top: 1114.01px;*/
+	background: #181818;
+	border-radius: 49.7748px;
+
+	/*background-color: #fff;
+	color: #000;
+	max-width: 800px;
+	padding: 30px;
+	position: relative;*/
+
+	transition: all 0.8s ease 0s;
+	opacity: 0;
+	/*	transform: translate(0px, -100%);*/
+	transform: perspective(600px) translate(0px, -100%) rotate(45deg);
+	z-index: 999;
+}
+.popup__title-mvp-k{
+	position: absolute;
+	left: 450px;
+    top: 68px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 29.5547px;
+	line-height: 36px;
+	/* identical to box height */
+	color: #FFFFFF;
+}
+.king{
+	color: #FFB800;
+}
+/* MVP KING на аккаунт Nikita */
+.title-span{
+	position: absolute;
+	left: 0px;
+    top: 55px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 21.0067px;
+	line-height: 26px;
+	/* identical to box height */
+	color: #FFFFFF;
+}
+.popup__close-mvp-k{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	font-size: 20px;
+	color: #000;
+	text-decoration: none;
+}
+.close__ellipse-mvp-k{
+	/* Ellipse 4 */
+	position: absolute;
+	width: 48.63px;
+	height: 48.63px;
+	right: 45px;
+    top: 35px;
+	border-radius: 100px;
+	background: #532410;
+}
+/* Group 10 */
+.Group-10-mvp-k{
+	position: absolute;
+	width: 21.39px;
+	height: 20.98px;
+	left: 1449.04px;
+	top: 1173.26px;
+}
+/* Line 1 (Stroke) */
+.line1-mvp-k{
+	position: absolute;
+	width: 26.39px;
+	height: 2.73px;
+	right: 56px;
+    top: 59px;
+	background: #FCA554;
+	transform: matrix(0.71, -0.73, 0.68, 0.71, 0, 0);
+}
+/* Line 2 (Stroke) */
+.line2-mvp-k{
+	position: absolute;
+	width: 26.39px;
+	height: 2.73px;
+	right: 55px;
+    top: 58px;
+	background: #FCA554;
+	transform: matrix(0.71, 0.73, -0.68, 0.71, 0, 0);
+}
+/* popup__mvp */
+.popup__mvp-k{
+	position: absolute;
+	width: 98.31px;
+	height: 98.25px;
+	left: 10px;
+    top: 22px;
+}
+/* Rectangle-popup-mvp */
+.Rectangle-popup-mvp-k{
+	position: absolute;
+	left: 300px;
+    right: 750px;
+    top: 50px;
+    bottom: 765px;
+	background: linear-gradient(180deg, #FFB800 0.01%, #FF7E00 100%);
+    box-shadow: 0px 1.56901px 3.92251px rgb(0 0 0 / 25%);
+    border-radius: 39.1837px;
+}
+/* Rectangle 25 */
+.Rectangle-25-mvp-k{
+	position: absolute;
+	width: 406.27px;
+	height: 0.5px;
+	left: 450px;
+    top: 113px;
+	background: #532410;
+}
+/* Group 16 */
+.Group-16-mvp-k{
+	position: absolute;
+	width: 560.43px;
+	height: 79.41px;
+	left: 300px;
+    top: 210px;
+}
+/* Rectangle-6 */
+.Rectangle-6-mvp-k{
+	position: absolute;
+    left: 0px;
+    top: 0px;
+    background: #994927;
+    border-radius: 50px;
+    width: 560px;
+    height: 80px;
+}
+/* Rectangle-popup-7 */
+.Rectangle-popup-7-mvp-k{
+	position: absolute;
+    left: 0px;
+    top: 0px;
+    background: #532410;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    width: 90px;
+    height: 80px;
+}
+/* Iconly/Bold/Message */
+.Message{
+	position: absolute;
+	left: 39px;
+    top: 24px;
+}
+/* Введите Ваш почтовый адрес */
+.popup-message-text-mvp-k{
+	position: absolute;
+    left: 116px;
+    top: 28px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+	color: #FFFFFF;
+}
+/* Group-17 */
+.Group-17-mvp-k{
+	position: absolute;
+	width: 560.43px;
+	height: 79.41px;
+	left: 300px;
+    top: 310px;
+}
+/* Iconly/Bold/Message */
+.Ticket{
+	position: absolute;
+	left: 39px;
+    top: 27px;
+}
+/* Frame 3 */
+.Frame-popup-3-mvp-k{
+	box-sizing: border-box;
+	/* Auto layout */
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 14.6244px 19.0117px;
+	gap: 7.31px;
+	position: absolute;
+	width: 115px;
+    height: 50px;
+    left: 300px;
+    top: 420px;
+	border: 3.6561px solid #572611;
+	border-radius: 26.3239px;
+	transition: all .4s ease-in-out;
+	cursor: pointer;
+}
+/* На месяц */
+.Frame-popup-3-mvp-k span{
+	width: 75px;
+	height: 18px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14.6244px;
+	line-height: 18px;
+	/* identical to box height */
+	color: #FFFFFF;
+	/* Inside auto layout */
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: -3px 0px 0 -3px;
+}
+.Frame-popup-3-mvp-k:hover{
+	border: solid #FBA454;
+	background: #FBA454;
+}
+/* Frame 4 */
+.Frame-popup-4-mvp-k{
+	box-sizing: border-box;
+	/* Auto layout */
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 14.6244px 19.0117px;
+	gap: 7.31px;
+	position: absolute;
+	width: 134.02px;
+	height: 47.25px;
+	left: 424px;
+    top: 420px;
+	border: 3.6561px solid #572611;
+	border-radius: 26.3239px;
+	transition: all .4s ease-in-out;
+	cursor: pointer;
+}
+/* На 3 месяца */
+.Frame-popup-4-mvp-k span{
+	width: 96px;
+	height: 18px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14.6244px;
+	line-height: 18px;
+	/* identical to box height */
+	color: #FFFFFF;
+	/* Inside auto layout */
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: -3px 0px 0 -3px;
+}
+.Frame-popup-4-mvp-k:hover{
+	border: solid #FBA454;
+	background: #FBA454;
+}
+/* Frame 4 */
+.Frame-popup-5-mvp-k{
+	box-sizing: border-box;
+	/* Auto layout */
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 14.6244px 19.0117px;
+	gap: 7.31px;
+	position: absolute;
+	width: 90px;
+    height: 47px;
+    left: 565px;
+    top: 420px;
+	border: 3.6561px solid #572611;
+	border-radius: 26.3239px;
+	transition: all .4s ease-in-out;
+	cursor: pointer;
+}
+/* На год */
+.Frame-popup-5-mvp-k span{
+	width: 52px;
+	height: 18px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14.6244px;
+	line-height: 18px;
+	/* identical to box height */
+	color: #FFFFFF;
+	/* Inside auto layout */
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: -3px 0px 0 -3px;
+}
+.Frame-popup-5-mvp-k:hover{
+	border: solid #FBA454;
+	background: #FBA454;
+}
+/* Выберите способ оплаты */
+.Choose-method-mvp-k{
+	position: absolute;
+    left: 304px;
+    top: 493px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 29px;
+	color: #FFFFFF;
+}
+/* Variant1 */
+.Variant1-mvp-k{
+	position: absolute;
+	width: 126.7px;
+	height: 80.24px;
+	left: 304px;
+    top: 550px;
+}
+/* Rectangle-19 */
+.Rectangle-19-mvp-k{
+	box-sizing: border-box;
+	position: absolute;
+	width: 126.7px;
+	height: 80.24px;
+	left: 0px;
+	top: 0px;
+	border: 3.22637px solid #FFFFFF;
+	border-radius: 19.3582px;
+	transition: all .4s ease-in-out;
+	cursor: pointer;
+}
+.Rectangle-19-mvp-k:hover{
+	border: solid #fff;
+	background: #fff;
+}
+/* Qiwi */
+.Qiwi-v-mvp-k{
+	position: absolute;
+	width: 33px;
+    height: 34px;
+    left: 43px;
+    top: 20px;
+}
+/* Variant2 */
+.Variant2-mvp-k{
+	position: absolute;
+	width: 126.7px;
+	height: 80.24px;
+	left: 448px;
+    top: 550px;
+}
+/* Variant3 */
+.Variant3-mvp-k{
+	position: absolute;
+	width: 126.7px;
+	height: 80.24px;
+	left: 593px;
+    top: 550px;
+}
+/* Variant4 */
+.Variant4-mvp-k{
+	position: absolute;
+	width: 126.7px;
+	height: 80.24px;
+	left: 736px;
+    top: 550px;
+}
+/* Variant5 */
+.Variant5-mvp-k{
+	position: absolute;
+	width: 126.7px;
+	height: 80.24px;
+	left: 304px;
+    top: 658px;
+}
+/* Variant6 */
+.Variant6-mvp-k{
+	position: absolute;
+	width: 126.7px;
+	height: 80.24px;
+	left: 448px;
+    top: 658px;
+}
+/* Variant7 */
+.Variant7-mvp-k{
+	position: absolute;
+	width: 126.7px;
+	height: 80.24px;
+	left: 593px;
+    top: 658px;
+}
+/* Variant8 */
+.Variant8-mvp-k{
+	position: absolute;
+	width: 126.7px;
+	height: 80.24px;
+	left: 736px;
+    top: 658px;
+}
+/* Rectangle-19 */
+.Rectangle-popup-19-mvp-k{
+	box-sizing: border-box;
+	position: absolute;
+	width: 1160px;
+	height: 158.27px;
+    left: 0px;
+    top: 773px;
+	background: linear-gradient(180deg, #461B08 0%, #4A200E 105.16%);
+	box-shadow: inset 0px -7.65766px 0px rgba(0, 0, 0, 0.25);
+	border-radius: 49.7748px;
+}
+/* CHECKBOX*/
+.checkbox__input-mvp-k{
+	-webkit-appearance: none;
+	appearance: none;
+	position: absolute;
+}
+.checkbox-mvp-k{
+	position: relative;
+	top: 834px;
+    left: 640px;
+}
+.checkbox__label-mvp-k{
+	padding-left: 25px;
+	font-size: 1rem;
+	color: #444;
+	cursor: pointer;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 17px;
+	color: #FFFFFF;
+}
+.checkbox__label-mvp-k span{
+	color: #FBA454;
+}
+.checkbox__label-mvp-k:before{
+	content: "";
+	display: block;
+	width: 16px;
+	height: 16px;
+	background-color: #fff;
+	border: 2px solid #FFFFFF;
+	border-radius: 8px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	transition: background .1s linear, border .1 linear;
+
+}
+.checkbox__label-mvp-k:after{
+	content: "";
+	display: block;
+	width: 12px;
+	height: 12px;
+	background: url("Images/check.svg") no-repeat;
+	background-size: 12px 12px; 
+	opacity: 0;
+	position: absolute;
+	top: 3px;
+	left: 3px;
+	z-index: 2;
+	transition: opacity .1s linear;
+}
+.checkbox__input-mvp-k:checked + .checkbox__label-mvp-k:before{
+	background-color: Green; 
+	border-color: darkgreen;
+}
+.checkbox__input-mvp-k:checked + .checkbox__label-mvp-k:after{
+	opacity: 1;
+}
+/* Перейти к оплате */
+/* Rectangle 10 */
+.Rectangle-popup-10-mvp-k{
+	box-sizing: border-box;
+	position: absolute;
+	width: 277.95px;
+	height: 63.46px;
+	left: 326px;
+    top: 812px;
+	background: linear-gradient(180deg, #9C4B28 0%, #4A200E 100%);
+	box-shadow: inset 0px -6.94874px 0px rgba(0, 0, 0, 0.25);
+	border-radius: 69.4874px;
+}
+/* Перейти к оплате 1₽ */
+.Rectangle-popup-10-text-mvp-k{
+	position: absolute;
+	width: 191px;
+	height: 21px;
+    left: 46px;
+    top: 17px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 17.3719px;
+	line-height: 21px;
+	background: linear-gradient(180deg, #FFFFFF 55.73%, #AA3504 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+}
+.Island-Adoptive{
+	display: none;
+}

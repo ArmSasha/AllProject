@@ -1,0 +1,377 @@
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) {
+
+.cards-holder{
+	flex-direction: column;
+	align-items: center;
+}
+.footer{
+	padding: 60px 0px;
+	width: 1245px;
+	font-size: 45px;
+}
+.coment{
+	padding: 30px 0px;
+	width: 1245px;
+}
+.menus{
+	padding: 30px 0px;
+	width: 1245px;
+}
+
+.menus-items{
+	display: block;
+	margin-left: 470px;
+}
+
+.menus-item{
+	width: 350px;
+	margin-bottom: 15px;
+}
+
+.menus-title{
+	font-size: 120px;
+	padding-bottom: 50px;
+	color: #e55039;
+}
+
+.menus-btn{
+	font-size: 30px;
+}
+
+.menus-text{
+	font-size: 45px;
+}
+
+.menus-subtext{
+	font-size: 45px;
+}
+
+.coment-text{
+	font-size: 45px;
+}
+
+.coment-img{
+	width: 250px;
+}
+
+.coment-type{
+	font-size: 45px;
+}
+
+.coment-name{
+	font-size: 45px;
+}
+
+.history-title{
+	font-size: 70px;
+}
+
+.history-decs{
+	font-size: 45px;
+}
+
+.number-item{
+	font-size: 50px;
+	margin-left: 10px;
+    margin-right: 10px;
+}
+
+.up-img{
+	position: fixed;
+	left: 10px;
+	bottom: 20px;
+	width: 130px;
+}
+
+.content-title{
+	font-size: 50px;
+}
+
+.content-info{
+	font-size: 35px;
+}
+
+.content p {
+    line-height: 50px;
+}
+
+.about{
+	font-size: 50px;
+}
+
+.skills{
+	font-size: 35px;
+}
+
+.black-block{
+	padding: 30px 0px;
+	width: 1245px;
+}
+
+.right-btn{
+	padding: 20px 20px;
+	font-size: 30px;
+}
+
+.left-text{
+	font-size: 35px;
+}
+
+.card{
+	padding: 10px 60px;
+	margin-top: 10px;
+}
+
+.card-img{
+	width: 200px;
+}
+
+.card-title{
+	font-size: 40px;
+}
+
+.card-desc{
+	font-size: 40px;
+}
+
+.nav li a{
+	font-size: 28px;
+}
+
+.num{
+	font-size: 40px;
+}
+
+.phone-text{
+	font-size: 28px;
+}
+
+.dishes-title{
+	font-size: 75px;
+	margin-bottom: 90px;
+}
+
+.pizza{
+	width: 600px;
+}
+
+.burger-img{
+	width: 300px;
+}
+
+.burger-text{
+	font-size: 35px;
+}
+
+.galery-title{
+	font-size: 75px;
+}
+
+.galery-content{
+	display: block;
+}
+
+.galery-up{
+	display: block;
+}
+
+.galery-down{
+	display: block;
+}
+
+.img-gal-high{
+	width: 1200px;
+}
+
+.img-gal{
+	width: 585px;
+}
+
+.cook-title{
+	font-size: 75px;
+}
+
+.cook-content{
+	display: block;
+}
+
+.cook-img {
+    margin-left: 400px;
+    margin-right: 500px;
+    width: 350px;
+}
+
+}
+
+
+@media screen and (min-device-width: 768px) and (max-device-width: 968px) {
+
+.content-title{
+	font-size: 35px;
+}
+
+.content-info{
+	font-size: 25px;
+}
+
+.card-title{
+	font-size: 25px;
+}
+
+.card-desc{
+	font-size: 20px;
+}
+
+.history-decs{
+	font-size: 25px;
+}
+
+.dishes-title{
+	margin-bottom: 50px;
+}
+
+.menus-title{
+	font-size: 120px;
+	padding-bottom: 50px;
+}
+
+.menus-btn{
+	font-size: 30px;
+}
+
+.menus-text{
+	font-size: 35px;
+}
+
+.menus-subtext{
+	font-size: 25px;
+}
+
+.coment-text{
+	font-size: 30px;
+}
+
+.coment-img{
+	width: 150px;
+}
+
+.coment-type{
+	font-size: 35px;
+}
+
+.coment-name{
+	font-size: 35px;
+}
+
+
+.black-block{
+	padding: 30px 0px;
+	width: 1245px;
+}
+
+.right-btn{
+	padding: 20px 20px;
+	margin-right: 50px;
+}
+
+.menus{
+	padding: 30px 0px;
+	width: 1245px;
+}
+
+
+.coment{
+	padding: 30px 0px;
+	width: 1245px;
+}
+
+.footer{
+	padding: 60px 0px;
+	width: 1245px;
+	font-size: 40px;
+}
+
+}
+
+
+@media screen and (min-device-width: 968px) and (max-device-width: 1024px) {
+
+
+.footer{
+	padding: 60px 0px;
+	width: 1245px;
+	font-size: 40px;
+}
+.coment{
+	padding: 30px 0px;
+	width: 1245px;
+}
+.menus{
+	padding: 30px 0px;
+	width: 1245px;
+}
+
+.menus-title{
+	font-size: 100px;
+}
+
+.menus-btn{
+	font-size: 25px;
+}
+
+.menus-text{
+	font-size: 35px;
+}
+
+.menus-subtext{
+	font-size: 30px;
+}
+
+.coment-text{
+	font-size: 30px;
+}
+
+.coment-type{
+	font-size: 30px;
+}
+
+.coment-name{
+	font-size: 30px;
+}
+
+.history-title{
+	font-size: 60px;
+}
+
+.history-decs{
+	font-size: 30px;
+}
+
+.number-item{
+	font-size: 40px;
+}
+
+
+.content-title{
+	font-size: 50px;
+}
+
+.content-info{
+	font-size: 22px;
+}
+
+.about{
+	font-size: 30px;
+}
+
+.black-block{
+	padding: 30px 0px;
+	width: 1245px;
+}
+
+.right-btn{
+	padding: 20px 20px;
+	margin-right: 50px;
+}
+
+}

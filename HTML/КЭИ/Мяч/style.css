@@ -1,0 +1,48 @@
+body{
+	background-color: #55efc4;
+}
+@keyframes jump {
+0% {bottom: 500px; height: 100px; width: 100px}
+50%{height: 100px; width: 100px}
+95%{height: 100px; width: 100px}
+100% {bottom: 110px; height: 50px; width: 110px;}
+}
+.ball{
+	position: absolute;
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+	margin-left: 200px;
+	margin-top: 200px;
+	background: -webkit-radial-gradient(100px 100px, circle, #F79F1F, #000);
+	background: -moz-radial-gradient(100px 100px, circle, #F79F1F, #000);
+	background: radial-gradient(100px 100px, circle, #F79F1F, #000);
+	animation: jump 2s linear infinite alternate;
+	z-index: 1;
+}
+.ball:hover{
+	animation-play-state: paused;
+}
+.line{
+	width: 1000px;
+	height: 15px;
+	margin-top: 800px;
+	background: #009432;
+}
+.Grass{
+	position: absolute;
+	width: 1000px;
+    height: 454px;
+    left: 8px;
+    top: 346px;
+	background: url(Grass.png);
+}
+.sun {
+	position: absolute;
+	top: 15px;
+    left: 992px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+	background: #FFC312;
+}

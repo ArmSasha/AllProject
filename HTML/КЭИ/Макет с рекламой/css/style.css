@@ -1,0 +1,581 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+.wrapper{
+	position: absolute;
+	width: 100%;
+	height: 1200px;
+	background: rgba(26, 188, 156, 0.5);
+}
+header{
+	position: absolute;
+	width: 100%;
+	height: 225px;
+}
+.logo_top{
+	margin: 10px;
+	position: absolute;
+	height: 200px;
+	width: 200px;
+}
+.line{
+	position: absolute;
+	width: 100%;
+	height: 5px;
+	margin-top: 220px;
+	background-color: #000;
+}
+.navigation-list{
+    width: 230px;
+    height: 30px;
+    list-style-type: none;
+    position: absolute;
+}
+box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 100px;
+    left: 500px;
+    width: 300px;
+    height: 70px;
+    border-radius: 50px;
+    box-shadow: inset 0 0 50px #fff,
+    inset 20px 0 80px #f0f,
+    inset -20px 0 80px #0ff,
+    inset 20px 0 300px #f0f,
+    inset -20px 0 300px #0ff,
+    0 0 50px #fff,
+    -10px 0 80px #f0f,
+     10px 0 80px #0ff;
+    animation: animate 2s linear infinite;
+}
+@keyframes animate{
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+.home{
+    text-decoration: none;
+    position: absolute;
+    height: 30px;
+    left: 0px;
+    font-family: 'Rowdies', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #fff;
+}
+.about{
+    text-decoration: none;
+    position: absolute;
+    height: 30px;
+    left: 75px;
+    top: 0px;
+    font-family: 'Rowdies', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #fff;
+}
+.pages{
+    text-decoration: none;
+    position: absolute;
+    height: 30px;
+    left: 152px;
+    top: 0px;
+    font-family: 'Rowdies', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #fff;
+}
+.login{
+    position: absolute;
+    top: 50px;
+    right: 150px;
+    text-decoration: none;
+    color: #000;
+    font-size: 25px;
+    font-family: 'Rowdies', cursive;
+}
+.sign_in{
+    position: absolute;
+    top: 50px;
+    right: 30px;
+    text-decoration: none;
+    color: #000;
+    font-size: 25px;
+    font-family: 'Rowdies', cursive;
+}
+main{
+    position: absolute;
+    margin-top: 225px;
+    width: 100%;
+    height: 415px;
+}
+.filters{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+}
+.filter{
+    position: absolute;
+    width: 50px;
+    top: 10px;
+    right: 10px;
+}
+/* контейнер */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/* скрываем дефолтный флажок */
+.container .check-highload {
+  position: absolute;
+  opacity: 0;
+}
+/* Создаем кастомный checkbox */
+.highload2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+/* При наведении указателя мыши перекрашиваем */
+.container:hover .check-highload ~ .highload2 {
+  background-color: #ccc;
+}
+/* Когда отмечен, то красим в зеленый цвет */
+.container .check-highload:checked ~ .highload2 {
+  background-color: green;
+}
+/* Создаем когда отмечено (не видно, когда не отмечено) */
+.highload2:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+/* Показываем когда отмечен */
+.container .check-highload:checked ~ .highload2:after {
+  display: block;
+}
+/* Стили индикатора */
+.container .highload2:after {
+  left: 8px;
+  top: 4px;
+  width: 8px;
+  height: 12px;
+  border: solid white;
+  border-width: 0 4px 4px 0;
+  transform: rotate(45deg);
+}
+.fil{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-family: 'Rowdies', cursive;
+}
+.price{
+    position: absolute;
+    top: 140px;
+    left: 39%;
+    font-size: 25px;
+    font-family: 'Rowdies', cursive;
+}
+.from{
+    position: absolute;
+    top: 190px;
+    left: 10%;
+    font-size: 20px;
+    font-family: 'Rowdies', cursive;
+}
+.to{
+    position: absolute;
+    top: 190px;
+    left: 80%;
+    font-size: 20px;
+    font-family: 'Rowdies', cursive;
+}
+.range {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    position: absolute;
+    left: 50%;
+    top: 170px;
+    width: 200px;
+    margin-top: 10px;
+    transform: translate(-50%, -50%);
+}
+input[type=range]::-webkit-slider-runnable-track {
+    -webkit-appearance: none;
+    background: rgba(59,173,227,1);
+    background: -moz-linear-gradient(45deg, rgba(59,173,227,1) 0%, rgba(87,111,230,1) 25%, rgba(152,68,183,1) 51%, rgba(255,53,127,1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(59,173,227,1)), color-stop(25%, rgba(87,111,230,1)), color-stop(51%, rgba(152,68,183,1)), color-stop(100%, rgba(255,53,127,1)));
+    background: -webkit-linear-gradient(45deg, rgba(59,173,227,1) 0%, rgba(87,111,230,1) 25%, rgba(152,68,183,1) 51%, rgba(255,53,127,1) 100%);
+    background: -o-linear-gradient(45deg, rgba(59,173,227,1) 0%, rgba(87,111,230,1) 25%, rgba(152,68,183,1) 51%, rgba(255,53,127,1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(59,173,227,1) 0%, rgba(87,111,230,1) 25%, rgba(152,68,183,1) 51%, rgba(255,53,127,1) 100%);
+    background: linear-gradient(45deg, rgba(59,173,227,1) 0%, rgba(87,111,230,1) 25%, rgba(152,68,183,1) 51%, rgba(255,53,127,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3bade3 ', endColorstr='#ff357f ', GradientType=1 );
+    height: 2px;
+}
+input[type=range]:focus {
+    outline: none;
+}
+input[type=range]::-moz-range-track {
+    -moz-appearance: none;
+    background: rgba(59,173,227,1);
+    background: -moz-linear-gradient(45deg, rgba(59,173,227,1) 0%, rgba(87,111,230,1) 25%, rgba(152,68,183,1) 51%, rgba(255,53,127,1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(59,173,227,1)), color-stop(25%, rgba(87,111,230,1)), color-stop(51%, rgba(152,68,183,1)), color-stop(100%, rgba(255,53,127,1)));
+    background: -webkit-linear-gradient(45deg, rgba(59,173,227,1) 0%, rgba(87,111,230,1) 25%, rgba(152,68,183,1) 51%, rgba(255,53,127,1) 100%);
+    background: -o-linear-gradient(45deg, rgba(59,173,227,1) 0%, rgba(87,111,230,1) 25%, rgba(152,68,183,1) 51%, rgba(255,53,127,1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(59,173,227,1) 0%, rgba(87,111,230,1) 25%, rgba(152,68,183,1) 51%, rgba(255,53,127,1) 100%);
+    background: linear-gradient(45deg, rgba(59,173,227,1) 0%, rgba(87,111,230,1) 25%, rgba(152,68,183,1) 51%, rgba(255,53,127,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3bade3 ', endColorstr='#ff357f ', GradientType=1 );
+    height: 2px;
+}
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: 2px solid;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    max-width: 80px;
+    position: relative;
+    bottom: 11px;
+    background-color: #1d1c25;
+    cursor: -webkit-grab;
+    -webkit-transition: border 1000ms ease;
+    transition: border 1000ms ease;
+}
+input[type=range]::-moz-range-thumb {
+    -moz-appearance: none;
+    border: 2px solid;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    max-width: 80px;
+    position: relative;
+    bottom: 11px;
+    background-color: #1d1c25;
+    cursor: -moz-grab;
+    -moz-transition: border 1000ms ease;
+    transition: border 1000ms ease;
+}
+.range.blue::-webkit-slider-thumb {
+    border-color: rgb(59,173,227);
+}
+.range.ltpurple::-webkit-slider-thumb {
+    border-color: rgb(87,111,230);
+}
+.range.purple::-webkit-slider-thumb {
+    border-color: rgb(152,68,183);
+}
+.range.pink::-webkit-slider-thumb {
+    border-color: rgb(255,53,127);
+}
+.range.blue::-moz-range-thumb {
+    border-color: rgb(59,173,227);
+}
+.range.ltpurple::-moz-range-thumb {
+    border-color: rgb(87,111,230);
+}
+
+.range.purple::-moz-range-thumb {
+    border-color: rgb(152,68,183);
+}
+.range.pink::-moz-range-thumb {
+    border-color: rgb(255,53,127);
+}
+input[type=range]::-webkit-slider-thumb:active {
+    cursor: -webkit-grabbing;
+}
+input[type=range]::-moz-range-thumb:active {
+    cursor: -moz-grabbing;
+}
+.ads{
+    position: absolute;
+    width: 250px;
+    height: 139px;
+    top: 255px;
+    border-right: 5px solid #000;
+    border-bottom: 5px solid #000;
+}
+.slperekhodnik{
+    max-width: 38em;
+    margin: 0 auto;
+    width: 100%;
+}
+.gablok_sedakoda{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.slayder_karusel{
+    position: relative;
+    width: 500%;
+    font-size: 0;
+    animation: 8s gablok_sedakoda-ani infinite;
+}
+.slayder_karusel figure{
+    width: 20%;
+    height: auto;
+    display: inline-block;
+    position: inherit;
+}
+.slayder_karusel img{
+    max-width: 100%;
+    vertical-align: bottom;
+}
+.slayder_karusel img:hover{
+    cursor: pointer;
+    filter: grayscale(90%);
+}
+@keyframes gablok_sedakoda-ani{
+    0%{
+    left: 0%;
+    }
+    20%{
+        left: 0%;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
+}
+.content{
+    position: absolute;
+    width: 75%;
+    height: 80%;
+    margin-left: 280px;
+    margin-top: 20px;
+}
+.product1{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+}
+.product2{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    left: 320px;
+}
+.product3{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    left: 640px;
+}
+.product4{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    top: 270px;
+}
+.product5{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    top: 270px;
+    left: 320px;
+}
+.product6{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    top: 270px;
+    left: 640px;
+}
+.product7{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    top: 540px;
+    left: 140px
+}
+.product8{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    top: 540px;
+    left: 500px;
+}
+.price_prod1{
+    position: absolute;
+    font-family: 'Rowdies', cursive;
+    top: 220px;
+    left: 70px;
+}
+.price_prod2{
+    position: absolute;
+    font-family: 'Rowdies', cursive;
+    top: 220px;
+    left: 390px;
+}
+.price_prod3{
+    position: absolute;
+    font-family: 'Rowdies', cursive;
+    top: 220px;
+    left: 710px;
+}
+.price_prod4{
+    position: absolute;
+    font-family: 'Rowdies', cursive;
+    top: 490px;
+    left: 70px;
+}
+.price_prod5{
+    position: absolute;
+    font-family: 'Rowdies', cursive;
+    top: 490px;
+    left: 390px;
+}
+.price_prod6{
+    position: absolute;
+    font-family: 'Rowdies', cursive;
+    top: 490px;
+    left: 710px;
+}
+.price_prod7{
+    position: absolute;
+    font-family: 'Rowdies', cursive;
+    top: 760px;
+    left: 210px;
+}
+.price_prod8{
+    position: absolute;
+    font-family: 'Rowdies', cursive;
+    top: 760px;
+    left: 570px;
+}
+.by1{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 200px;
+    left: 220px;
+}
+.by2{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 200px;
+    left: 550px;
+}
+.by3{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 200px;
+    left: 870px;
+}
+.by4{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 470px;
+    left: 220px;
+}
+.by5{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 470px;
+    left: 550px;
+}
+.by6{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 470px;
+    left: 870px;
+}
+.by7{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 740px;
+    left: 370px;
+}
+.by8{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 740px;
+    left: 730px;
+}
+footer{
+    position: absolute;
+    width: 100%;
+    height: 140px;
+    top: 1055px;
+    border-top: 5px solid #000;
+}
+.logo_down{
+    position: absolute;
+    left: 10px;
+    width: 135px;
+    height: 135px;
+}
+.text{
+    position: absolute;
+    right: 10px;
+    font-family: 'Rowdies', cursive;
+    font-size: 20px;
+    top: 10px;
+}
+.date{
+    position: absolute;
+    font-family: 'Rowdies', cursive;
+    font-size: 20px;
+    bottom: 0px;
+    left: 600px;
+}
+.telegram{
+    position: absolute;
+    font-family: 'Rowdies', cursive;
+    font-size: 20px;
+    right: 10px;
+    top: 50px;
+    text-decoration: none;
+    color: rgba(22, 160, 133,1.0);
+}

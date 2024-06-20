@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.background {
+    background-color: #88e1e4;
+  
+}
+
+.logo {
+    width: 100px;
+}
+
+.burger {
+    display: none;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 20px 10px 20px;
+    background-color: #807490;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    column-gap: 50px;
+
+}
+.button1 {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+    background-color: #7a777c;
+    border: 2px solid white;
+}
+
+.button2 {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #7a777c;
+    border-radius: 10px;
+    font-size: 14px;
+    text-align: center;
+    padding: 13px;
+    border: 5px solid rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.buttonn {
+    display: inline-block;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 250px;
+    font-size: 14px;
+    text-align: center;
+    padding: 13px;
+    border: 2px solid black;
+    font-weight: bold;
+}
+
+.main {
+    display: flex;
+
+}
+.box{
+    position: absolute;
+    left: 200px;
+    right: 0;
+    top: 233px;
+    background-color: #ffffff;
+    width: 1400px;
+    height: 370px;
+}
+.karta1 {
+    position: absolute;
+    left: 343px;
+    right: 0;
+    top: 251px;
+    width: 1000px;
+    height: 540px;
+    
+}
+.text{
+    position: absolute;
+    font-size: 40px;
+    font-weight: 400;
+    color: #000000;
+    top:249px;
+    left:839px;
+}
+.text1{
+    position: absolute;
+    font-size: 25px;
+    font-weight: 400;
+    color: #000000;
+    top:315px;
+    left:839px;
+}
+.box1{
+    position: absolute;
+    left: 1242px;
+    right: 0;
+    top: 520px;
+    background-color: #bd6666;
+    width: 235px;
+    height: 59px;
+    border-radius: 20px;
+}
+.text2{
+    position: absolute;
+    font-size: 40px;
+    font-weight: 400;
+    color: #000000;
+    top:525px;
+    left:1293px;
+}
+.text3{
+    position: absolute;
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+    top:353px;
+    left:845px;
+}
+.text4{
+    position: absolute;
+    font-size: 40px;
+    font-weight: 400;
+    color: #000000;
+    top:621px;
+    left:203px;
+}
+.box2{
+    position: absolute;
+    left: 167px;
+    right: 0;
+    top: 699px;
+    background-color: #ffffff;
+    width: 1450px;
+    height: 123px;
+    border-radius: 20px;
+}
+.text5{
+    position: absolute;
+    font-size: 25px;
+    font-weight: 400;
+    color: #000000;
+    top:10px;
+    left:180px;
+}
+.photo{
+    position: absolute;
+    left: 189px;
+    right: 0;
+    top: 701px;
+    width: 1000px;
+    height: 540px;
+}
+.text6{
+    position: absolute;
+    font-size: 25px;
+    font-weight: 400;
+    color: #000000;
+    top:748px;
+    left:335px;
+}
+
+.box3{
+    position: absolute;
+    left: 167px;
+    right: 0;
+    top: 902px;
+    background-color: #ffffff;
+    width: 1450px;
+    height: 123px;
+    border-radius: 20px;
+}
+.photo1{
+    position: absolute;
+    left: 189px;
+    right: 0;
+    top: 904px;
+    width: 1000px;
+    height: 540px;
+}
+.text7{
+    position: absolute;
+    font-size: 25px;
+    font-weight: 400;
+    color: #000000;
+    top:14px;
+    left:192px;
+}
+.text8{
+    position: absolute;
+    font-size: 25px;
+    font-weight: 400;
+    color: #000000;
+    top:963px;
+    left:335px;
+}
+
+.box4{
+    position: absolute;
+    left: 167px;
+    right: 0;
+    top: 1109px;
+    background-color: #ffffff;
+    width: 1450px;
+    height: 123px;
+    border-radius: 20px;
+}
+.photo2{
+    position: absolute;
+    left: 189px;
+    right: 0;
+    top: 1113px;
+    width: 1000px;
+    height: 540px;
+}
+.text9{
+    position: absolute;
+    font-size: 25px;
+    font-weight: 400;
+    color: #000000;
+    top:14px;
+    left:192px;
+}
+.text10{
+    position: absolute;
+    font-size: 25px;
+    font-weight: 400;
+    color: #000000;
+    top:1171px;
+    left:335px;
+}
+
+
+

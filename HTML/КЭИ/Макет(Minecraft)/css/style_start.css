@@ -1,0 +1,735 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+/* Home desktop */
+.Start-play{
+	position: relative;
+	width: 1920px;
+	height: 2180px;
+
+	/* dark orange */
+
+	background: linear-gradient(180deg, #C18E08 0%, #BD570E 100%);
+}
+/* header */
+.header{
+	position: absolute;
+	width: 1160px;
+	height: 120.51px;
+	left: 380px;
+	top: 41.2px;
+}
+/* Rectangle 1 */
+.Rectangle-1{
+	box-sizing: border-box;
+	position: absolute;
+	width: 1160px;
+	height: 91px;
+	left: 0px;
+	top: -33px;
+	background: rgba(105, 53, 30, 0.6);
+	box-shadow: inset 0px -7px 0px rgba(0, 0, 0, 0.25);
+	backdrop-filter: blur(7.5px);
+	/* Note: backdrop-filter has minimal browser support */
+	border-radius: 100px;
+	z-index: 1;
+}
+/* Rectangle 4 */
+.Rectangle-4{
+	position: absolute;
+	width: 329.96px;
+	height: 92.57px;
+	background: linear-gradient(90deg, rgba(67, 28, 11, 0.6) 31.95%, rgba(105, 53, 30, 0) 73.35%);
+	border-radius: 100px;
+}
+
+/* LOGO */
+.logo{
+	position: absolute;
+	width: 111.4px;
+	height: 111.4px;
+	top: -30px;
+	background: url(Images/Logo.png);
+}
+/* FEPLEX */
+.FEPLEX{
+	position: absolute;
+	width: 144px;
+	height: 43px;
+	left: 136px;
+	top: 25px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 35.4896px;
+	line-height: 43px;
+	color: #FFFFFF;
+}
+/* Как начать игру */
+.Game-text{
+	position: absolute;
+	width: 198px;
+	height: 29px;
+	left: 435px;
+	top: 33px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+	color: #FFFFFF;
+}
+/* Start-Game */
+.Game-img{
+	position: absolute;
+	height: 28.53px;
+	left: 396px;
+	right: 58.1%;
+	top: 30px;
+}
+/* Rectangle 3 */
+.Rectangle-3{
+	position: absolute;
+	width: 1.82px;
+	height: 68.1px;
+	left: 330px;
+	top: 12px;
+	background: #FCA554;
+}
+/* Магазин */
+.Shop-text{
+	position: absolute;
+    width: 108px;
+    height: 29px;
+    left: 732px;
+    top: 31px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+/* Shop-img */
+.Shop-img{
+	position: absolute;
+    height: 29.35px;
+    left: 694px;
+    right: 42.57%;
+    top: 30px;
+}
+/* Контакты */
+.Contacts-text{
+	position: absolute;
+	width: 117px;
+	height: 29px;
+	left: 949px;
+	top: 33px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+	color: #FFFFFF;
+}
+/* Contacts-img */
+.Contacts-img{
+	position: absolute;
+    height: 29.35px;
+    left: 910px;
+    right: 42.57%;
+    top: 32px;
+}
+/* Rectangle 28 */
+.Rectangle-28{
+	position: absolute;
+	width: 1160px;
+	height: 638.72px;
+	left: 380px;
+	top: 10px;
+	background: linear-gradient(180deg, rgba(193, 137, 8, 0) 12.38%, #4A2110 49.57%);
+	border-radius: 100px;
+}
+/* Players 1 */
+.Players{
+	position: absolute;
+	width: 687.77px;
+	height: 545.29px;
+	left: -44px;
+    top: 120px;
+	background: url(Images/Players.png);
+}
+/* Group-20 */
+.Group-20{
+	position: absolute;
+	width: 406.09px;
+	height: 278.71px;
+	left: 1040.26px;
+	top: 291.53px;
+}
+/* Players-text */
+.Players-text{
+	position: absolute;
+	width: 406.09px;
+	height: 183px;
+	left: -379.74px;
+    top: -70.47px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 30.47px;
+	color: #FFFFFF;
+}
+.Players-text span{
+	font-weight: 400;
+	font-size: 23.86px;
+	line-height: 29px;
+}
+/* Frame 20 */
+.Frame-20{
+	box-sizing: border-box;
+	/* Auto layout */
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 20.5128px 42.3931px;
+	gap: 13.68px;
+	position: absolute;
+	width: 234.54px;
+	height: 75.21px;
+	left: -380px;
+    top: 134px;
+	background: linear-gradient(180deg, #9C4B28 0%, #4A200E 100%);
+	box-shadow: inset 0px -8.51272px 0px rgba(0, 0, 0, 0.25);
+	border-radius: 85.1272px;
+}
+/* Скачать игру */
+.Frame-text{
+	width: 149px;
+	height: 26px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 21.2818px;
+	line-height: 26px;
+	/* identical to box height */
+	background: linear-gradient(180deg, #FFFFFF 55.73%, #AA3504 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+	/* Inside auto layout */
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+/* Polygon 1 */
+.Polygon-1{
+	position: absolute;
+	width: 57.72px;
+	height: 57.72px;
+	left: 935px;
+    top: 626px;
+}
+/* Polygon 2 */
+.Polygon-2{
+	box-sizing: border-box;
+	position: absolute;
+	width: 107.47px;
+	height: 107.47px;
+	left: 913px;
+    top: 614px;
+}
+/* Group 21 */
+.Group-21{
+	position: absolute;
+	width: 362.3px;
+	height: 408.84px;
+	left: 462.92px;
+	top: 748.18px;
+}
+/* 1 */
+.Number-one{
+	position: absolute;
+	width: 90px;
+	height: 279px;
+	left: 0px;
+	top: -60px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 228.479px;
+	line-height: 279px;
+	/* identical to box height */
+	background: linear-gradient(180deg, #674A08 0%, #A67303 62.5%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+}
+/* Начнем игру! Нажмите кнопку ниже, чтобы автоматически добавить сервер и начать игру уже прямо сейчас. */
+.One-text{
+	position: absolute;
+	width: 362.23px;
+	height: 182px;
+	left: 0px;
+	top: 76px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24.673px;
+	line-height: 37px;
+	color: #FFFFFF;
+}
+.One-text span{
+	font-weight: 400;
+	font-size: 23.55px;
+	line-height: 36.83px;
+}
+/* Frame-20-one */
+.Frame-20-one{
+	box-sizing: border-box;
+	/* Auto layout */
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 17.6019px 36.3773px;
+	gap: 11.73px;
+	position: absolute;
+	width: 242.38px;
+	height: 64.54px;
+	left: 0px;
+	top: 285px;
+	background: linear-gradient(180deg, #9C4B28 0%, #4A200E 100%);
+	box-shadow: 0px 7.30473px 5.84378px rgba(241, 177, 11, 0.26), inset 0px -7.30473px 0px rgba(0, 0, 0, 0.25);
+	border-radius: 73.0473px;
+}
+/* Добавить сервер */
+.Add-server{
+	width: 170px;
+	height: 22px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18.2618px;
+	line-height: 22px;
+	background: linear-gradient(180deg, #FFFFFF 55.73%, #AA3504 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+	/* Inside auto layout */
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+/* Rectangle 26 */
+.Rectangle-26{
+	position: absolute;
+	width: 369.45px;
+	height: 0.51px;
+	left: 692px;
+	top: 920px;
+	background: #532410;
+	transform: rotate(-90deg);
+}
+/* Group 22 */
+.Group-22{
+	position: absolute;
+	width: 529.44px;
+	height: 408.84px;
+	left: 927.64px;
+	top: 748.18px;
+}
+/* 2 */
+.Number-two{
+	position: absolute;
+	width: 135px;
+	height: 279px;
+	left: 0px;
+	top: -60px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 228.479px;
+	line-height: 279px;
+	/* identical to box height */
+	background: linear-gradient(180deg, #674A08 0%, #A67303 62.5%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+}
+/* Что-то пошло не так? Если сервер не получилось добавить автоматически,тогда следуйте инструкции ниже. Мы постарались объяснить все как можно проще! */
+.Two-text{
+	position: absolute;
+	width: 529.37px;
+	height: 196.37px;
+	left: 0px;
+	top: 76px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24.673px;
+	line-height: 37px;
+	color: #FFFFFF;
+}
+.Two-text span{
+	font-weight: 400;
+	font-size: 23.55px;
+	line-height: 36.83px;
+}
+/* Frame 20 */
+.Frame-20-two{
+	box-sizing: border-box;
+	/* Auto layout */
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 17.6019px 36.3773px;
+	gap: 11.73px;
+	position: absolute;
+	width: 283.5px;
+	height: 64.54px;
+	left: 0px;
+	top: 285px;
+	background: linear-gradient(180deg, #9C4B28 0%, #4A200E 100%);
+	box-shadow: 0px 7.30473px 5.84378px rgba(241, 177, 11, 0.26), inset 0px -7.30473px 0px rgba(0, 0, 0, 0.25);
+	border-radius: 73.0473px;
+}
+/* Открыть инструкцию */
+.Open-instruction{
+	width: 211px;
+	height: 22px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18.2618px;
+	line-height: 22px;
+	background: linear-gradient(180deg, #FFFFFF 55.73%, #AA3504 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+	/* Inside auto layout */
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+/* Rectangle 27 */
+.Rectangle-27{
+	position: absolute;
+	width: 1922.68px;
+	height: 840.02px;
+	left: 0px;
+	top: 1180px;
+	background: #4A2110;
+}
+/* Как добавить сервер вручную? */
+.Server-manually{
+	position: absolute;
+	width: 405px;
+	height: 29px;
+	left: 439.1px;
+	top: 71px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 29px;
+	color: #FFFFFF;
+}
+/* Group 27 */
+.Group-27{
+	position: absolute;
+	width: 1059.48px;
+	height: 632.91px;
+	left: 430.26px;
+    top: 140.29px;
+}
+/* Group 24 */
+.Group-24{
+	position: absolute;
+	width: 310.22px;
+	height: 288.24px;
+	left: 0px;
+	top: 0px;
+}
+/* Rectangle 29 */
+.Rectangle-29{
+	box-sizing: border-box;
+	position: absolute;
+	width: 310.22px;
+	height: 150.24px;
+    left: 0px;
+    top: 136px;
+	background: linear-gradient(180deg, #9C4B28 0%, #4A200E 100.23%);
+	box-shadow: inset 0px -7.65766px 0px rgba(0, 0, 0, 0.25);
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	z-index: 1;
+}
+/* Rectangle 30 */
+.Rectangle-30{
+	position: absolute;
+	width: 310.22px;
+	height: 136.5px;
+	left: 0px;
+    top: 0px;
+	background: #DFDFDF;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+/* ШАГ 1. Зайдите в игру Minecraft и нажмите на кнопку “Играть” */
+.Step-one{
+	position: absolute;
+    width: 251.13px;
+    height: 88.41px;
+    left: 29px;
+    top: 18px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17.31px;
+    line-height: 27.24px;
+    color: #FFFFFF;
+}
+.Step-one span{
+	font-weight: 400;
+	font-size: 17.31px;
+	line-height: 21.1px;
+}
+/* Group 25 */
+.Group-25{
+	position: absolute;
+	width: 310.22px;
+	height: 288.24px;
+	left: 375px;
+	top: 0px;
+}
+/* Group 26 */
+.Group-26{
+	position: absolute;
+	width: 310.22px;
+	height: 288.24px;
+	left: 749.52px;
+	top: 0px;
+}
+/* Group 28 */
+.Group-28{
+	position: absolute;
+	width: 682.79px;
+	height: 301.83px;
+	left: -430px;
+    top: -1380px;
+}
+/* Rectangle 31 */
+.Rectangle-31{
+	position: absolute;
+	width: 682.79px;
+	height: 168.61px;
+	left: 430.26px;
+	top: 1711.37px;
+	background: #DFDFDF;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+/* Rectangle 32 */
+.Rectangle-32{
+	box-sizing: border-box;
+	position: absolute;
+	width: 682.79px;
+	height: 136.82999999999998px;
+    left: 430.26px;
+    top: 1878.37px;
+	background: linear-gradient(180deg, #9C4B28 0%, #4A200E 100.23%);
+	box-shadow: inset 0px -7.65766px 0px rgba(0, 0, 0, 0.25);
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+/* ШАГ 1. Зайдите в игру Minecraft и нажмите на кнопку “Играть” */
+.Step-one-d{
+	position: absolute;
+	width: 552.73px;
+	height: 88.41px;
+	left: 64.29px;
+    top: 30px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 17.31px;
+	line-height: 29.24px;
+	color: #FFFFFF;
+}
+.Step-one-d span{
+	font-weight: 400;
+	font-size: 17.31px;
+	line-height: 21.1px;
+}
+
+
+	
+
+
+
+
+
+
+
+
+/* ______________________Footer______________________________*/
+/* Rectangle 11 */
+.Rectangle-11{
+	position: absolute;
+	width: 1920px;
+	height: 176.2px;
+	left: 0px;
+	top: 2020px;
+	background: rgba(105, 53, 30, 0.8);
+	box-shadow: inset 0px -7px 0px rgba(0, 0, 0, 0.25);
+	backdrop-filter: blur(7.5px);
+	/* Note: backdrop-filter has minimal browser support */
+}
+/* Feplex 2022 nikita@feplex.ru ИП Агафонов Никита Андреевич ИНН 0291193330 ОГРН 299190137 */
+.Kon{
+	position: absolute;
+	width: 285px;
+	height: 120px;
+	left: 383.33px;
+	top: 22px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16.0051px;
+	line-height: 150.84%;
+	/* or 24px */
+	color: #FFFFFF;
+}
+/* Конфиденциальность */
+.Privacy{
+	position: absolute;
+	width: 155px;
+	height: 20px;
+	left: 1384.37px;
+	top: 22px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13.5335px;
+	line-height: 150.84%;
+	/* or 20px */
+	color: #9A9A9A;
+}
+/* Пользовательское соглашение */
+.Agreement{
+	position: absolute;
+	width: 221px;
+	height: 20px;
+	left: 1319.24px;
+	top: 42px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13.5335px;
+	line-height: 150.84%;
+	/* or 20px */
+	color: #9A9A9A;
+}
+/* Rectangle 12 */
+.Rectangle-12{
+	position: absolute;
+	width: 380px;
+	height: 60.1px;
+	left: 1160px;
+	top: 80px;
+	background: #572611;
+	border-radius: 16px;
+}
+/* mir */
+.Mir{
+	position: absolute;
+	width: 39.9px;
+	height: 10.54px;
+	left: 8px;
+    top: 20px;
+}
+/* visa */
+.Visa{
+	position: absolute;
+	width: 31.62px;
+	height: 10.54px;
+	left: 57px;
+	top: 20px;
+}
+/* mastercard */
+.Mastercard{
+	position: absolute;
+	width: 22.59px;
+	height: 13.55px;
+	left: 98px;
+	top: 20px;
+}
+/* qiwi */
+.Qiwi{
+	position: absolute;
+	width: 13.55px;
+	height: 13.55px;
+    left: 130px;
+	top: 20px;
+}
+/* applePay */
+.ApplePay{
+	position: absolute;
+	width: 30.12px;
+	height: 12.05px;
+	left: 152px;
+	top: 20px;
+}
+/* spay */
+.Spay{
+	position: absolute;
+	width: 28.61px;
+	height: 12.8px;
+	left: 191px;
+	top: 20px;
+}
+/* gpay */
+.Gpay{
+	position: absolute;
+	width: 30.87px;
+	height: 12.05px;
+	left: 229px;
+	top: 20px;
+}
+/* megafon */
+.Megafon{
+	position: absolute;
+	width: 13.55px;
+	height: 13.55px;
+    left: 268px;
+	top: 20px;
+}
+/* mts */
+.Mts{
+	position: absolute;
+	width: 38.4px;
+	height: 9.03px;
+    left: 291px;
+    top: 19px;
+}
+/* tele2 */
+.Tele2{
+	position: absolute;
+	width: 32.38px;
+	height: 11.29px;
+	left: 338px;
+	top: 20px;
+}

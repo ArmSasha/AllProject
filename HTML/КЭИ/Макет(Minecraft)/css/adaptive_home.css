@@ -1,0 +1,71 @@
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) {
+    BODY {
+        min-width: 320PX;
+        max-width: 767PX;
+    }
+
+    .Rectangle-1{
+        width: 415px;
+        height: 93px;
+    }
+    .lines{
+        position: absolute;
+        width: 31.22px;
+        height: 27.31px;
+        left: 731px;
+        top: 112px;
+        z-index: 1;
+    }
+    .line1{
+        top: 0px;
+        position: absolute;
+        width: 31.22px;
+        height: 3px;
+        background: #FCA554;
+    }
+    .line2{
+        top: 8px;
+        position: absolute;
+        width: 31.22px;
+        height: 3px;
+        background: #FCA554;
+    }
+    .line3{
+        top: 16px;
+        position: absolute;
+        width: 31.22px;
+        height: 3px;
+        background: #FCA554;
+    }
+    .Start-game{
+        display: none;
+    }
+    .Shop{
+        display: none;
+    }
+
+    .Contacts{
+        display: none;
+    }
+    .Left-Island{
+        display: none;
+    }
+    .Right-Island{
+        display: none;
+    }
+    .Sword-Left-img{
+        display: none;
+    }
+    .Island-Adoptive{
+        display: flex;
+        /* vippng 1 */
+        position: absolute;
+        width: 591.07px;
+        height: 457.37px;
+        left: -81.54px;
+        top: 347.02px;
+    }
+
+
+
+}

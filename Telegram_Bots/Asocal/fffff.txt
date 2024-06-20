@@ -1,0 +1,138 @@
+import logging
+from aiogram import Bot, Dispatcher, executor, types
+from aiogram.types.message import ContentType
+from aiogram.contrib.fsm_storage.memory import MemoryStorage
+import time
+import datetime
+import random
+from pyqiwip2p import QiwiP2P
+from db import Database
+import markups as nav
+import config as con
+from handlers import condition, client
+import bot_telegram
+
+storage = MemoryStorage()
+
+logging.basicConfig(level=logging.INFO)
+
+bot = Bot(token=con.TOKEN)
+p2p = QiwiP2P(auth_key=con.qiwiToken)
+
+dp = Dispatcher(bot, storage=storage)
+
+db = Database('database.db')
+
+
+#_________________________________________________________________________________________________________________
+
+#_________________________________________________________________________________________________________________
+
+# def days_to_seconds(days):
+# 	return days * 24 * 60 * 60
+
+
+# def time_sub_day(get_time):
+# 	time_now = int(time.time())
+# 	middle_time = int(get_time) - time_now
+
+# 	if middle_time <= 0:
+# 		return False
+# 	else:
+# 		dt = str(datetime.timedelta(seconds=middle_time))
+# 		dt = dt.replace('days', 'дней')
+# 		dt = dt.replace('day', 'день')
+# 		return dt
+
+#_________________________________________________________________________________________________________________
+
+#_________________________________________________________________________________________________________________
+
+# def is_number(_str):
+# 	try:
+# 		int(_str)
+# 		return True
+# 	except ValueError:
+# 		return False
+
+
+
+# @dp.message_handler()
+# async def bot_mess(message: types.Message):
+# 	if message.chat.type == 'private':
+# 		if is_number(message.text):
+# 			message_money = int(message.text)
+# 			if message_money >= 5:
+# 				comment = str(message.from_user.id) + "_" + str(random.randint(1000, 9999))
+# 				bill = p2p.bill(amount=message_money, lifetime = 15, comment=comment)
+
+# 				db.add_check(message.from_user.id, message_money, bill.bill_id)
+
+# 				await bot.send_message(message.from_user.id, f"Вам нужно отправить {message_money} руб. на наш счёт QIWI\nСсылка: {bill.pay_url}\nУказав комментарий к оплате: {comment}", reply_markup=nav.by_menu(url=bill.pay_url, bill=bill.bill_id))
+
+# 			else:
+# 				await bot.send_message(message.from_user.id, 'Минимальная сумма для пополнения 5 рублей')
+# 		else:
+# 			await bot.send_message(message.from_user.id, 'Введите целое число')
+
+# @dp.callback_query_handler(text='top_up')
+# async def top_up(callback: types.CallbackQuery):
+# 	await bot.delete_message(callback.from_user.id, callback.message.message_id)
+# 	await bot.send_message(callback.from_user.id, 'Введите сумму для пополнения', reply_markup=nav.backMenu)
+
+# @dp.callback_query_handler(text_contains='check_')
+# async def check(callback: types.CallbackQuery):
+# 	bill = str(callback.data[6:])
+# 	info = db.get_check(bill)
+# 	if info != False:
+# 		if str(p2p.check(bill_id=bill).status) == "PAID":
+# 			user_money = db.user_money(callback.from_user.id)
+# 			money = int(info[2])
+# 			db.set_money(callback.from_user.id, user_money+money)
+# 			delete_check()
+# 			await bot.send_message(callback.from_user.id, 'Ваш счёт пополнен!')
+# 		else:
+# 			await bot.send_message(callback.from_user.id, 'Вы не отплатили счёт!', reply_markup = nav.by_menu(False, bill=bill))
+
+# 	else:
+# 		await bot.send_message(callback.from_user.id, 'Счёт не найден')
+# 	# await bot.delete_message(call.from_user.id, call.message.message_id)
+# 	# Logo_menu = open('Images/Logo_menu.png', 'rb')
+# 	# await bot.send_photo(callback.from_user.id, caption = f'Введите сумму для пополнения', photo = Logo_menu, reply_markup=nav.backMenu)
+
+
+#_________________________________________________________________________________________________________________
+
+#_________________________________________________________________________________________________________________
+
+
+
+# async def send_q(call: types.CallbackQuery):
+# 	await bot.send_message(-1001630751716, text = f"Поступила заявка от {call.from_user.first_name} !\nЕго username: @{call.from_user.username}\nЕго текст: \n{call.message.text}")
+
+# 	await bot.send_message(call.from_user.id, text = 'Заявка отправлена!')
+
+#_________________________________________________________________________________________________________________
+
+# @dp.callback_query_handler(text='support')
+# async def support(call: types.CallbackQuery):
+# 	await state.reset_state()
+# 	await bot.delete_message(call.from_user.id, call.message.message_id)
+# 	Logo_menu = open('Images/Logo_menu.png', 'rb')
+# 	await bot.send_photo(call.from_user.id, caption = 'Заполните заявку', photo = Logo_menu, reply_markup=nav.sendMenu)
+
+
+# @dp.callback_query_handler(text='send_question')
+# async def send_question(call: types.CallbackQuery:
+# 	await bot.send_message(-1001630751716, text = f"Поступила заявка от {call.from_user.first_name} !\nЕго username: @{call.from_user.username}\nЕго текст: \n{call.message.text}")
+
+# 	await bot.send_message(call.from_user.id, text = 'Заявка отправлена!')
+
+#_________________________________________________________________________________________________________________
+
+
+
+
+
+# if __name__ == '__main__':
+# 	executor.start_polling(dp, skip_updates = True)

@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block title %}Create{% endblock %}
+
+{% block href %}"{{ url_for('static',filename='css/create-article.css') }}"{% endblock %}
+
+{% block body %}
+
+
+
+
+<div class="container">
+    <h1 class="page_title" >Добавление статьи</h1>
+    <form class="from-create" method="post">
+
+        <div class="form-control">
+          <input class="from-create-title" type="text" required />
+          <label class="from-create-label">Загаловок</label>
+        </div>
+
+        <div class="form-control">
+          <input class="from-create-intro" required />
+          <label class="from-create-label">Описание</label>
+        </div>
+
+        <div class="form-control">
+          <input class="from-create-text" required />
+          <label class="from-create-label">Текст</label>
+        </div>
+
+        <button class="btn">Отправить</button>
+        <!--     <p class="text">
+          Нет учетной записи? <a href="#">Регистрация</a></p> -->
+    </form>
+</div>
+
+
+
+
+<script src="{{url_for('static',filename='js/create-article.js')}}"></script>
+{% endblock %}

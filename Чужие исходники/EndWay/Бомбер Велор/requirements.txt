@@ -1,0 +1,8 @@
+phonenumbers
+aiogram
+requests
+bs4
+apscheduler
+pyqiwip2p
+pyTelegramBotAPI
+fake_useragent

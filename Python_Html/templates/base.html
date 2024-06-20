@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href={{ url_for('static',filename='css/base.css') }}>
+	<link rel="stylesheet" href={% block href %}{% endblock %}>
+	<link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+	<script defer src="https://pyscript.net/latest/pyscript.js"></script>
+	<title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+	<header>
+        <ul class = "nav">
+
+        	<form class="form-switch">
+				<label class="toggle">
+				  <div class="wrapper">
+					<input class="checkbox" type="checkbox">
+					<div class="toggle-bg">
+					  <div class="sphere">
+						<div class="sphere-bg">
+						</div>
+						<div class="sphere-overlay"></div>
+					  </div>
+					</div>
+				  </div>
+				</label>
+			</form>
+
+
+        	<div class="logo">
+				<span class = "slovo">RHOMBUS</span>
+			</div>
+
+        	<li class="nav_items" style="--clr:#00ade1">
+			  <a class="nav_item" href="/" data-text="&nbsp;Home">&nbsp;Home&nbsp;</a>
+			</li>
+
+			<li class="nav_items" style="--clr:#ff6492">
+			  <a class="nav_item" href="/about" data-text="&nbsp;About">&nbsp;About&nbsp;</a>
+			</li>
+
+			<li class="nav_items" style="--clr:#ffdd1c">
+			  <a class="nav_item" href="/create-article" data-text="&nbsp;Create">&nbsp;Create&nbsp;</a>
+			</li>
+        </ul>
+    </header>
+    {% block body %}{% endblock %}
+</body>
+</html>
