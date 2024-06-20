@@ -1,2 +1,2 @@
-TOKEN = "5760615918:AAHygCHZdAnKceDwVIBzhT_L-INrrbK6HbI"
-admin = 1030874842
+TOKEN = "Тут ваш токен"
+admin = # айди админа
