@@ -9,7 +9,7 @@ from aiogram.types import ParseMode
 from aiogram.utils import executor
 from aiogram import Bot, Dispatcher, types
 
-API_TOKEN = '5714593221:AAE_vzYtjwfa0h7RlDO4scezpxsGQYIDWCg'  # Replace with your bot token
+API_TOKEN = 'Тут ваш токен'  # Replace with your bot token
 
 # Initialize bot and dispatcher
 bot = Bot(token=API_TOKEN)
