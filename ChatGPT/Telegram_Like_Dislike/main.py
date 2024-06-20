@@ -8,7 +8,7 @@ from aiogram.utils import markdown
 from aiogram.utils.markdown import text
 
 # Инициализация бота и хранилища состояний
-bot = Bot(token='5714593221:AAE_vzYtjwfa0h7RlDO4scezpxsGQYIDWCg')
+bot = Bot(token='Тут ваш токен')
 storage = MemoryStorage()
 dp = Dispatcher(bot, storage=storage)
 
